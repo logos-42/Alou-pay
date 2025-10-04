@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 function FloatingPaths({ position }: { position: number }) {
     const paths = Array.from({ length: 36 }, (_, i) => ({
@@ -146,13 +146,16 @@ const translations = {
         ],
     },
 };
-
 export function BackgroundPaths({
     title = "Alou Pay",
+    language = 'en',
+    onLanguageToggle,
 }: {
     title?: string;
+    language?: 'en' | 'zh';
+    onLanguageToggle?: () => void;
 }) {
-    const [language, setLanguage] = useState<'en' | 'zh'>('en');
+   
     const t = translations[language];
     const words = t.title.split(" ");
     const containerRef = useRef<HTMLDivElement>(null);
@@ -169,10 +172,7 @@ export function BackgroundPaths({
         contentSection?.scrollIntoView({ behavior: "smooth" });
     };
 
-    const toggleLanguage = () => {
-        setLanguage(prev => prev === 'en' ? 'zh' : 'en');
-    };
-
+    
     return (
         <div ref={containerRef} className="relative w-full bg-white dark:bg-neutral-950">
             {/* Language Toggle Button */}
@@ -180,7 +180,7 @@ export function BackgroundPaths({
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 0.8 }}
-                onClick={toggleLanguage}
+                onClick={onLanguageToggle}
                 className="fixed top-6 right-6 z-50 px-4 py-2 rounded-lg bg-white/10 dark:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/20 text-neutral-900 dark:text-white hover:bg-white/20 dark:hover:bg-white/20 transition-all duration-300 font-medium"
             >
                 {language === 'en' ? '中文' : 'EN'}
