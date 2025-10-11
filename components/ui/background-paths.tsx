@@ -55,6 +55,7 @@ const translations = {
         title: "Alou Pay",
         subtitle: "Next-Generation AI Agent Payment Solution",
         learnMore: "Learn More",
+        getStarted: "Get Started",  // 添加这行
         mainTitle: "AI Agent Payment Platform",
         mainDescription: "Secure and efficient payment solutions for AI agents based on encrypted wallet private key technology",
         features: [
@@ -102,6 +103,7 @@ const translations = {
         title: "Alou Pay",
         subtitle: "下一代智能体支付解决方案",
         learnMore: "了解更多",
+        getStarted: "开始使用",  // 添加这行
         mainTitle: "智能体支付平台",
         mainDescription: "基于加密钱包私钥技术，为 AI 智能体提供安全、高效的支付解决方案",
         features: [
@@ -236,29 +238,57 @@ export function BackgroundPaths({
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 1, duration: 0.8 }}
-                            className="inline-block group relative bg-gradient-to-b from-black/10 to-white/10 
-                            dark:from-white/10 dark:to-black/10 p-px rounded-2xl backdrop-blur-lg 
-                            overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+                            className="flex flex-col sm:flex-row gap-4 items-center justify-center"
                         >
-                            <Button
-                                onClick={scrollToContent}
-                                variant="ghost"
-                                className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md 
-                                bg-white/95 hover:bg-white/100 dark:bg-black/95 dark:hover:bg-black/100 
-                                text-black dark:text-white transition-all duration-300 
-                                group-hover:-translate-y-0.5 border border-black/10 dark:border-white/10
-                                hover:shadow-md dark:hover:shadow-neutral-800/50"
-                            >
-                                <span className="opacity-90 group-hover:opacity-100 transition-opacity">
-                                    {t.learnMore}
-                                </span>
-                                <span
-                                    className="ml-3 opacity-70 group-hover:opacity-100 group-hover:translate-x-1.5 
-                                    transition-all duration-300"
+                            {/* Learn More 按钮 */}
+                            <div className="inline-block group relative bg-gradient-to-b from-black/10 to-white/10 
+                            dark:from-white/10 dark:to-black/10 p-px rounded-2xl backdrop-blur-lg 
+                            overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <Button
+                                    onClick={scrollToContent}
+                                    variant="ghost"
+                                    className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md 
+                                    bg-white/95 hover:bg-white/100 dark:bg-black/95 dark:hover:bg-black/100 
+                                    text-black dark:text-white transition-all duration-300 
+                                    group-hover:-translate-y-0.5 border border-black/10 dark:border-white/10
+                                    hover:shadow-md dark:hover:shadow-neutral-800/50"
                                 >
-                                    →
-                                </span>
-                            </Button>
+                                    <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                        {t.learnMore}
+                                    </span>
+                                    <span
+                                        className="ml-3 opacity-70 group-hover:opacity-100 group-hover:translate-x-1.5 
+                                        transition-all duration-300"
+                                    >
+                                        →
+                                    </span>
+                                </Button>
+                            </div>
+
+                            {/* Get Started 按钮 */}
+                            <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-purple-600/20 
+                            dark:from-blue-500/30 dark:to-purple-600/30 p-px rounded-2xl backdrop-blur-lg 
+                            overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <Button
+                                    onClick={() => window.open('https://alou.onl', '_blank')}
+                                    variant="ghost"
+                                    className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md 
+                                    bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700
+                                    text-white transition-all duration-300 
+                                    group-hover:-translate-y-0.5 border border-white/20
+                                    hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-purple-500/50"
+                                >
+                                    <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                        {t.getStarted}
+                                    </span>
+                                    <span
+                                        className="ml-3 opacity-70 group-hover:opacity-100 group-hover:translate-x-1.5 
+                                        transition-all duration-300"
+                                    >
+                                        →
+                                    </span>
+                                </Button>
+                            </div>
                         </motion.div>
                     </motion.div>
                 </div>
