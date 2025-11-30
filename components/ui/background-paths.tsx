@@ -270,7 +270,10 @@ export function BackgroundPaths({
     };
 
     return (
-        <div ref={containerRef} className="relative w-full bg-white dark:bg-neutral-950">
+        <div 
+            ref={containerRef} 
+            className="relative w-full bg-white dark:bg-neutral-950"
+        >
             {/* Hero Section */}
             <motion.div
                 style={{ opacity, scale }}
