@@ -61,6 +61,11 @@ const translations = {
         subtitle: "Next-Generation AI Agent Payment Solution",
         learnMore: "Learn More",
         getStarted: "Get Started",
+        downloadWindows: "Download Windows",
+        updateTitle: "Latest Update",
+        updateVersion: "v0.1.0",
+        updateDescription: "Desktop application release with Web3 AI Agent features and encrypted wallet management. Supports Windows 10/11 (64-bit).",
+        updateSha256: "SHA256: 6ccd766ea35c3450e3f5f53cd9cf2e50df0b7cc48dc4b9c8111390962805956b",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -150,6 +155,11 @@ const translations = {
         subtitle: "下一代智能体支付解决方案",
         learnMore: "了解更多",
         getStarted: "开始使用",
+        downloadWindows: "下载 Windows 版",
+        updateTitle: "最新更新",
+        updateVersion: "v0.1.0",
+        updateDescription: "桌面版应用发布，支持 Windows 10/11 (64位)，包含 Web3 AI Agent 功能和加密钱包管理。",
+        updateSha256: "SHA256: 6ccd766ea35c3450e3f5f53cd9cf2e50df0b7cc48dc4b9c8111390962805956b",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
@@ -326,10 +336,20 @@ export function BackgroundPaths({
                                     <span className="opacity-90 group-hover:opacity-100 transition-opacity">
                                         {t.learnMore}
                                     </span>
-                                    <span className="ml-3 opacity-70 group-hover:opacity-100 group-hover:translate-x-1.5 transition-all duration-300">
-                                        →
-                                    </span>
                                 </Button>
+                            </div>
+
+                            {/* Download Windows 按钮 */}
+                            <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <a
+                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.0/Alou_0.1.0_x64-setup.exe"
+                                    download="Alou_0.1.0_x64-setup.exe"
+                                    className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
+                                >
+                                    <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                        {t.downloadWindows}
+                                    </span>
+                                </a>
                             </div>
 
                             {/* Get Started 按钮 */}
@@ -341,9 +361,6 @@ export function BackgroundPaths({
                                 >
                                     <span className="opacity-90 group-hover:opacity-100 transition-opacity">
                                         {t.getStarted}
-                                    </span>
-                                    <span className="ml-3 opacity-70 group-hover:opacity-100 group-hover:translate-x-1.5 transition-all duration-300">
-                                        →
                                     </span>
                                 </Button>
                             </div>
@@ -519,6 +536,43 @@ export function BackgroundPaths({
                                 </ul>
                             </div>
                         </motion.div>
+                        {/* Update Section */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 40 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.7 }}
+                            viewport={{ once: true, margin: "-80px" }}
+                            className="mt-20"
+                        >
+                            <div className="max-w-4xl mx-auto bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30 p-8 md:p-12 rounded-3xl border border-blue-200 dark:border-blue-800/50">
+                                <div className="text-center mb-6">
+                                    <h3 className="text-3xl font-bold mb-2 text-neutral-900 dark:text-white">
+                                        {t.updateTitle}
+                                    </h3>
+                                    <div className="inline-block px-4 py-1 bg-blue-500 text-white rounded-full text-sm font-semibold mb-4">
+                                        {t.updateVersion}
+                                    </div>
+                                </div>
+                                <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed mb-6 text-center">
+                                    {t.updateDescription}
+                                </p>
+                                <div className="bg-white/80 dark:bg-neutral-900/80 p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 mb-6">
+                                    <p className="text-sm text-neutral-600 dark:text-neutral-400 font-mono break-all text-center">
+                                        {t.updateSha256}
+                                    </p>
+                                </div>
+                                <div className="flex justify-center">
+                                    <a
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.0/Alou_0.1.0_x64-setup.exe"
+                                        download="Alou_0.1.0_x64-setup.exe"
+                                        className="px-8 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
+                                    >
+                                        {t.downloadWindows}
+                                    </a>
+                                </div>
+                            </div>
+                        </motion.div>
+
                         {/* Preview Image */}
                         <motion.div
                             initial={{ opacity: 0, y: 40 }}

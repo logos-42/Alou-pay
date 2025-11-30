@@ -12,10 +12,12 @@ const translations = {
   en: {
     docs: "Documentation",
     home: "Home",
+    download: "Download Windows",
   },
   zh: {
     docs: "文档",
     home: "首页",
+    download: "下载 Windows 版",
   },
 };
 
@@ -34,6 +36,13 @@ export function Navbar({ language, onLanguageToggle }: NavbarProps) {
         </Link>
 
         <div className="flex items-center gap-6">
+          <a
+            href="https://github.com/logos-42/Alou-pay/releases/download/0.1.0/Alou_0.1.0_x64-setup.exe"
+            download="Alou_0.1.0_x64-setup.exe"
+            className="px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300 font-medium"
+          >
+            {t.download}
+          </a>
           <Link
             href="/docs"
             className="text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white transition-colors font-medium"
