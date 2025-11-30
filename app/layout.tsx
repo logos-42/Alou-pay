@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alou Pay - AI Agent Payment Platform",
+  title: "Alou",
   description: "Secure payment solutions for AI agents based on encrypted wallet private key technology",
 };
 
