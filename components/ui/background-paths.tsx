@@ -62,6 +62,7 @@ const translations = {
         learnMore: "Learn More",
         getStarted: "Get Started",
         downloadWindows: "Download Windows",
+        downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
         updateVersion: "v0.1.0",
         updateDescription: "Desktop application release with Web3 AI Agent features and encrypted wallet management. Supports Windows 10/11 (64-bit).",
@@ -156,6 +157,7 @@ const translations = {
         learnMore: "了解更多",
         getStarted: "开始使用",
         downloadWindows: "下载 Windows 版",
+        downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
         updateVersion: "v0.1.0",
         updateDescription: "桌面版应用发布，支持 Windows 10/11 (64位)，包含 Web3 AI Agent 功能和加密钱包管理。",
@@ -327,46 +329,63 @@ export function BackgroundPaths({
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 1, duration: 0.8 }}
-                            className="flex flex-col sm:flex-row gap-4 items-center justify-center"
+                            className="flex flex-col items-center justify-center"
                         >
-                            {/* Learn More 按钮 */}
-                            <div className="inline-block group relative bg-gradient-to-b from-black/10 to-white/10 dark:from-white/10 dark:to-black/10 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                                <Button
-                                    onClick={scrollToContent}
-                                    variant="ghost"
-                                    className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-white/95 hover:bg-white dark:bg-black/95 dark:hover:bg-black text-black dark:text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-black/10 dark:border-white/10 hover:shadow-md dark:hover:shadow-neutral-800/50"
-                                >
-                                    <span className="opacity-90 group-hover:opacity-100 transition-opacity">
-                                        {t.learnMore}
-                                    </span>
-                                </Button>
-                            </div>
+                            <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-3">
+                                {/* Learn More 按钮 */}
+                                <div className="inline-block group relative bg-gradient-to-b from-black/10 to-white/10 dark:from-white/10 dark:to-black/10 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                    <Button
+                                        onClick={scrollToContent}
+                                        variant="ghost"
+                                        className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-white/95 hover:bg-white dark:bg-black/95 dark:hover:bg-black text-black dark:text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-black/10 dark:border-white/10 hover:shadow-md dark:hover:shadow-neutral-800/50"
+                                    >
+                                        <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                            {t.learnMore}
+                                        </span>
+                                    </Button>
+                                </div>
 
-                            {/* Download Windows 按钮 */}
-                            <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                                <a
-                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.0/Alou_0.1.0_x64-setup.exe"
-                                    download="Alou_0.1.0_x64-setup.exe"
-                                    className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
-                                >
-                                    <span className="opacity-90 group-hover:opacity-100 transition-opacity">
-                                        {t.downloadWindows}
-                                    </span>
-                                </a>
-                            </div>
+                                {/* Download Windows 按钮 */}
+                                <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                    <a
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.0/Alou_0.1.0_x64-setup.exe"
+                                        download="Alou_0.1.0_x64-setup.exe"
+                                        className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
+                                    >
+                                        <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                            {t.downloadWindows}
+                                        </span>
+                                    </a>
+                                </div>
 
-                            {/* Get Started 按钮 */}
-                            <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-purple-600/20 dark:from-blue-500/30 dark:to-purple-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                                <Button
-                                    onClick={() => window.open("https://alou.onl", "_blank")}
-                                    variant="ghost"
-                                    className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-purple-500/50"
-                                >
-                                    <span className="opacity-90 group-hover:opacity-100 transition-opacity">
-                                        {t.getStarted}
-                                    </span>
-                                </Button>
+                                {/* Get Started 按钮 */}
+                                <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-purple-600/20 dark:from-blue-500/30 dark:to-purple-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                    <Button
+                                        onClick={() => window.open("https://alou.onl", "_blank")}
+                                        variant="ghost"
+                                        className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-purple-500/50"
+                                    >
+                                        <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                            {t.getStarted}
+                                        </span>
+                                    </Button>
+                                </div>
                             </div>
+                            
+                            {/* 安全提示 */}
+                            <motion.p
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ delay: 1.2, duration: 0.8 }}
+                                className="text-xs text-neutral-500 dark:text-neutral-400 text-center max-w-2xl mx-auto px-4"
+                            >
+                                <span className="inline-flex items-center gap-1">
+                                    <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                                    </svg>
+                                    {t.downloadSecurityNote}
+                                </span>
+                            </motion.p>
                         </motion.div>
                     </motion.div>
                 </div>
