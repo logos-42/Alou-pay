@@ -34,7 +34,7 @@ export function Navbar({ language, onLanguageToggle }: NavbarProps) {
     >
       <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold text-neutral-900 dark:text-white hover:opacity-80 transition-opacity">
-          Alou Pay
+          Alou
         </Link>
 
         <div className="flex items-center gap-6">
