@@ -493,8 +493,8 @@ export function BackgroundPaths({
                                     alt="DIAP protocol overview illustration"
                                     fill
                                     className="object-contain"
-                                    placeholder="blur"
                                     sizes="(min-width: 1024px) 60vw, 90vw"
+                                    unoptimized
                                 />
                             </div>
                         </motion.div>
@@ -513,8 +513,8 @@ export function BackgroundPaths({
                                     alt="Sovereign agent community illustration"
                                     fill
                                     className="object-contain"
-                                    placeholder="blur"
                                     sizes="(min-width: 1024px) 60vw, 90vw"
+                                    unoptimized
                                 />
                             </div>
                             <div className="bg-neutral-50 dark:bg-neutral-900 p-10 rounded-3xl border border-neutral-200 dark:border-neutral-800 max-w-4xl mx-auto">
@@ -536,43 +536,6 @@ export function BackgroundPaths({
                                 </ul>
                             </div>
                         </motion.div>
-                        {/* Update Section */}
-                        <motion.div
-                            initial={{ opacity: 0, y: 40 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.7 }}
-                            viewport={{ once: true, margin: "-80px" }}
-                            className="mt-20"
-                        >
-                            <div className="max-w-4xl mx-auto bg-gradient-to-br from-blue-50 to-purple-50 dark:from-blue-950/30 dark:to-purple-950/30 p-8 md:p-12 rounded-3xl border border-blue-200 dark:border-blue-800/50">
-                                <div className="text-center mb-6">
-                                    <h3 className="text-3xl font-bold mb-2 text-neutral-900 dark:text-white">
-                                        {t.updateTitle}
-                                    </h3>
-                                    <div className="inline-block px-4 py-1 bg-blue-500 text-white rounded-full text-sm font-semibold mb-4">
-                                        {t.updateVersion}
-                                    </div>
-                                </div>
-                                <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed mb-6 text-center">
-                                    {t.updateDescription}
-                                </p>
-                                <div className="bg-white/80 dark:bg-neutral-900/80 p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 mb-6">
-                                    <p className="text-sm text-neutral-600 dark:text-neutral-400 font-mono break-all text-center">
-                                        {t.updateSha256}
-                                    </p>
-                                </div>
-                                <div className="flex justify-center">
-                                    <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.0/Alou_0.1.0_x64-setup.exe"
-                                        download="Alou_0.1.0_x64-setup.exe"
-                                        className="px-8 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/50"
-                                    >
-                                        {t.downloadWindows}
-                                    </a>
-                                </div>
-                            </div>
-                        </motion.div>
-
                         {/* Preview Image */}
                         <motion.div
                             initial={{ opacity: 0, y: 40 }}
@@ -596,8 +559,8 @@ export function BackgroundPaths({
                                         alt="Agent coordination interface preview"
                                         fill
                                         className="object-contain"
-                                        placeholder="blur"
                                         sizes="(min-width: 1024px) 60vw, 90vw"
+                                        unoptimized
                                     />
                                 </div>
                             </div>
