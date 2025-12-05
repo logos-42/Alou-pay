@@ -66,7 +66,7 @@ const translations = {
         updateTitle: "Latest Update",
         updateVersion: "v0.1.1",
         updateDescription: "Desktop version permanently saves agents, supports creating invitations and deletion, DIAP identity obtained from metadata. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: f6b0c38fce4c258d1f581feacdca517a21246c1ef52827f245af85b1a39caead",
+        updateSha256: "SHA256: 298c292f6aa794198fb522c4d1a8dfc142755a9e53b53c9e44755c7aa6e59245",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -161,7 +161,7 @@ const translations = {
         updateTitle: "最新更新",
         updateVersion: "v0.1.1",
         updateDescription: "桌面版持久保存智能体，支持创建邀请和删除，diap身份从元数据获取。支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256: f6b0c38fce4c258d1f581feacdca517a21246c1ef52827f245af85b1a39caead",
+        updateSha256: "SHA256: 298c292f6aa794198fb522c4d1a8dfc142755a9e53b53c9e44755c7aa6e59245",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
