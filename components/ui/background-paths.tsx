@@ -66,7 +66,7 @@ const translations = {
         updateTitle: "Latest Update",
         updateVersion: "v0.1.0",
         updateDescription: "Desktop application release with Web3 AI Agent features and encrypted wallet management. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: 6ccd766ea35c3450e3f5f53cd9cf2e50df0b7cc48dc4b9c8111390962805956b",
+        updateSha256: "SHA256: f6b0c38fce4c258d1f581feacdca517a21246c1ef52827f245af85b1a39caead",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -161,7 +161,7 @@ const translations = {
         updateTitle: "最新更新",
         updateVersion: "v0.1.0",
         updateDescription: "桌面版应用发布，支持 Windows 10/11 (64位)，包含 Web3 AI Agent 功能和加密钱包管理。",
-        updateSha256: "SHA256: 6ccd766ea35c3450e3f5f53cd9cf2e50df0b7cc48dc4b9c8111390962805956b",
+        updateSha256: "SHA256: f6b0c38fce4c258d1f581feacdca517a21246c1ef52827f245af85b1a39caead",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
