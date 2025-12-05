@@ -64,8 +64,8 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.1.0",
-        updateDescription: "Desktop application release with Web3 AI Agent features and encrypted wallet management. Supports Windows 10/11 (64-bit).",
+        updateVersion: "v0.1.1",
+        updateDescription: "Desktop version permanently saves agents, supports creating invitations and deletion, DIAP identity obtained from metadata. Supports Windows 10/11 (64-bit).",
         updateSha256: "SHA256: f6b0c38fce4c258d1f581feacdca517a21246c1ef52827f245af85b1a39caead",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
@@ -159,8 +159,8 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.1.0",
-        updateDescription: "桌面版应用发布，支持 Windows 10/11 (64位)，包含 Web3 AI Agent 功能和加密钱包管理。",
+        updateVersion: "v0.1.1",
+        updateDescription: "桌面版持久保存智能体，支持创建邀请和删除，diap身份从元数据获取。支持 Windows 10/11 (64位)。",
         updateSha256: "SHA256: f6b0c38fce4c258d1f581feacdca517a21246c1ef52827f245af85b1a39caead",
         mainTitle: "智能体支付平台",
         mainDescription:
@@ -348,8 +348,8 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.0/Alou_0.1.0_x64-setup.exe"
-                                        download="Alou_0.1.0_x64-setup.exe"
+                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.1/Alou_0.1.1_x64-setup.exe"
+                                    download="Alou_0.1.1_x64-setup.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
