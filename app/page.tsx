@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Navbar language={language} onLanguageToggle={toggleLanguage} />
-      <BackgroundPaths title="Alou" language={language} onLanguageToggle={toggleLanguage} />
+      <BackgroundPaths title="Alou Pay" language={language} onLanguageToggle={toggleLanguage} />
       <Footer language={language} />
     </>
   );
