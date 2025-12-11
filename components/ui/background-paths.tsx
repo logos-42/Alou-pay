@@ -64,9 +64,9 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.1.3",
-        updateDescription: "Fixes multi-agent concurrent execution issues, replaces the send button icon with PNG format, fixes the image synchronization issue when creating agents, and updates the channel immediately after uploading the avatar. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256:d54beb9b7fff3dfdd8338d3c69601dcd8ffd379f0e69d3679268c0b1c6a57d19",
+        updateVersion: "v0.1.4",
+        updateDescription: "Implement Agent/Alou mode switching and Prompt optimization. Add Agent/Alou mode switching function (click badge to switch mode), optimize CustomAgentInfo Prompt generation logic, implement WASM version of DIAP Identity Manager. Supports Windows 10/11 (64-bit).",
+        updateSha256: "SHA256: 60d35c6d64b77eaebca5a356724becda1b7f9894ca32ed1594cc9df001ad17cd",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -159,9 +159,9 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.1.3",
-        updateDescription: "修复多智能体并发执行问题,替换发送按钮图标为PNG格式，修复创建智能体时图片同步问题，头像上传完成后立即更新频道。支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256:d54beb9b7fff3dfdd8338d3c69601dcd8ffd379f0e69d3679268c0b1c6a57d19",
+        updateVersion: "v0.1.4",
+        updateDescription: "实现 Agent/Alou 模式切换和 Prompt 优化。添加 Agent/Alou 模式切换功能(点击 badge 切换模式)，优化 CustomAgentInfo Prompt 生成逻辑，实现 WASM 版本的 DIAP Identity Manager，修复筛选框从模型选择改为模式选择。支持 Windows 10/11 (64位)。",
+        updateSha256: "SHA256: 60d35c6d64b77eaebca5a356724becda1b7f9894ca32ed1594cc9df001ad17cd",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
@@ -348,8 +348,8 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.3/Alou_0.1.3_x64-setup.exe"
-                                    download="Alou_0.1.3_x64-setup.exe"
+                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.4/Alou_0.1.4_x64-setup.exe"
+                                    download="Alou_0.1.4_x64-setup.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
