@@ -66,7 +66,7 @@ const translations = {
         updateTitle: "Latest Update",
         updateVersion: "v0.1.4",
         updateDescription: "Implement Agent/Alou mode switching and Prompt optimization. Add Agent/Alou mode switching function (click badge to switch mode), optimize CustomAgentInfo Prompt generation logic, implement WASM version of DIAP Identity Manager. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: 60d35c6d64b77eaebca5a356724becda1b7f9894ca32ed1594cc9df001ad17cd",
+        updateSha256: "SHA256: 85329b0535b977bd542946a9622514ae65082156ed15b1ff56dce0eb360342fb",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -161,7 +161,7 @@ const translations = {
         updateTitle: "最新更新",
         updateVersion: "v0.1.4",
         updateDescription: "实现 Agent/Alou 模式切换和 Prompt 优化。添加 Agent/Alou 模式切换功能(点击 badge 切换模式)，优化 CustomAgentInfo Prompt 生成逻辑，实现 WASM 版本的 DIAP Identity Manager，修复筛选框从模型选择改为模式选择。支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256: 60d35c6d64b77eaebca5a356724becda1b7f9894ca32ed1594cc9df001ad17cd",
+        updateSha256: "SHA256: 85329b0535b977bd542946a9622514ae65082156ed15b1ff56dce0eb360342fb",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
