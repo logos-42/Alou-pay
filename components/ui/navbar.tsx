@@ -39,8 +39,8 @@ export function Navbar({ language, onLanguageToggle }: NavbarProps) {
 
         <div className="flex items-center gap-6">
           <a
-            href="https://github.com/logos-42/Alou-pay/releases/download/0.1.4/Alou_0.1.4_x64-setup.exe"
-            download="Alou_0.1.4_x64-setup.exe"
+            href="https://github.com/logos-42/Alou-pay/releases/download/0.1.5/Alou_0.1.5_x64-setup.exe"
+            download="Alou_0.1.5_x64-setup.exe"
             title={t.downloadSecurityNote}
             className="px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300 font-medium"
           >
