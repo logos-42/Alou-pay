@@ -65,8 +65,8 @@ const translations = {
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
         updateVersion: "v0.1.6",
-        updateDescription: "Update version to v0.1.6. Supports multi-platform packaging. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: 815105afad434b34f15761c8ed5152e86a7fe2e40915a964f4b7f02f4c382499",
+        updateDescription: "Update version to v0.1.6. Add handleImportAgent function to handle parsed agent imports, connect onImportAgent callback in AgentChat.jsx, enhance logging for resolveExistingAgentTarget and buildChannelFromAgent, ensure parsed agents are correctly added to channel list and saved to local storage, fix public_gateways lifecycle issues and pubsub_topics type mismatch, fix agent loss due to inconsistent IDs during loading, unify ID generation logic, fix missing IPNS field in DIAP identity panel, optimize agent deduplication logic, clean up redundant debug logs, fix temporary ID filtering logic. Supports Windows 10/11 (64-bit).",
+        updateSha256: "SHA256: f660f34717761f5c3dda75174b2275b4053a85fffb61905c3c50d3f34c50c78a",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -160,8 +160,8 @@ const translations = {
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
         updateVersion: "v0.1.6",
-        updateDescription: "更新版本到 v0.1.6。支持多平台打包。支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256: 815105afad434b34f15761c8ed5152e86a7fe2e40915a964f4b7f02f4c382499",
+        updateDescription: "更新版本到 v0.1.6。添加 handleImportAgent 函数处理已解析智能体的导入，在 AgentChat.jsx 中连接 onImportAgent 回调，增强 resolveExistingAgentTarget 和 buildChannelFromAgent 的日志输出，确保解析后的智能体能正确添加到频道列表并保存到本地存储，修复 public_gateways 生命周期问题、pubsub_topics 类型不匹配和未使用的导入，修复智能体加载时ID不一致导致的丢失问题，统一ID生成逻辑，确保保存和加载时使用相同的ID，修复DIAP身份面板IPNS字段丢失的问题，优化智能体去重逻辑，清理多余的调试日志，修复临时ID过滤逻辑。支持 Windows 10/11 (64位)。",
+        updateSha256: "SHA256: f660f34717761f5c3dda75174b2275b4053a85fffb61905c3c50d3f34c50c78a",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
