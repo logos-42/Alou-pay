@@ -64,9 +64,9 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.1.5",
-        updateDescription: "Implement Cluster Action System. Add cluster action data structures and manager, implement task orchestration engine (sequential, parallel, conditional branching), implement intelligent agent coordinator (capability matching, pattern perception), extend PubSub manager to support group chat functionality, implement cluster executor (execution adaptation, result merging, error handling), add cluster action API routes, create frontend cluster action service, support multi-agent collaboration in agent/alou hybrid mode. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: 864ab7e1c022dc9abf0f29934d9f4fb7775db40697f2ae022f589cfed9a1589c",
+        updateVersion: "v0.1.6",
+        updateDescription: "Update version to v0.1.6. Supports multi-platform packaging. Supports Windows 10/11 (64-bit).",
+        updateSha256: "SHA256: 815105afad434b34f15761c8ed5152e86a7fe2e40915a964f4b7f02f4c382499",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -159,9 +159,9 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.1.5",
-        updateDescription: "实现集群行动系统。添加集群行动数据结构和管理器，实现任务编排引擎（顺序、并行、条件分支），实现智能体协调器（能力匹配、模式感知），扩展 PubSub 管理器支持群聊功能，实现集群执行器（执行适配、结果合并、错误处理），添加集群行动 API 路由，创建前端集群行动服务，支持 agent/alou 混合模式下的多智能体协作。支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256: 864ab7e1c022dc9abf0f29934d9f4fb7775db40697f2ae022f589cfed9a1589c",
+        updateVersion: "v0.1.6",
+        updateDescription: "更新版本到 v0.1.6。支持多平台打包。支持 Windows 10/11 (64位)。",
+        updateSha256: "SHA256: 815105afad434b34f15761c8ed5152e86a7fe2e40915a964f4b7f02f4c382499",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
@@ -348,8 +348,8 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.5/Alou_0.1.5_x64-setup.exe"
-                                    download="Alou_0.1.5_x64-setup.exe"
+                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.6/Alou_0.1.6_x64-setup.exe"
+                                    download="Alou_0.1.6_x64-setup.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
