@@ -64,9 +64,9 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.1.6",
-        updateDescription: "Update version to v0.1.6. Add handleImportAgent function to handle parsed agent imports, connect onImportAgent callback in AgentChat.jsx, enhance logging for resolveExistingAgentTarget and buildChannelFromAgent, ensure parsed agents are correctly added to channel list and saved to local storage, fix public_gateways lifecycle issues and pubsub_topics type mismatch, fix agent loss due to inconsistent IDs during loading, unify ID generation logic, fix missing IPNS field in DIAP identity panel, optimize agent deduplication logic, clean up redundant debug logs, fix temporary ID filtering logic. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: 54eff501bd40d16bf52e75745e2af74c0a3c6b6ddde8e2dd90289c76f7fc0998",
+        updateVersion: "v0.1.7",
+        updateDescription: "Implement group chat remote control and version upgrade. Create independent ImportAgentModal component for importing agents from other nodes, remove IPNS/CID parsing functionality from CreateAgentModal, optimize search bar IPNS/CID auto-parsing, improve close and cancel logic during parsing, fix icon size and style issues, add complete bilingual support, optimize agent name and avatar display logic, implement agent-specific background feature with channel-based storage and blur processing, add image blur processing utility function, implement independent background image storage per agent, automatic blur effect for background images, dialogue panel supports background image display, right sidebar transparency with frosted glass effect, fixed settings icon position, refactor AgentChat component. Supports Windows 10/11 (64-bit).",
+        updateSha256: "SHA256: 5aabf81a2281f22ccded8c0563c39da7a949f93e10a99179921d635870486397",
         mainTitle: "AI Agent Payment Platform",
         mainDescription:
             "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
@@ -159,9 +159,9 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.1.6",
-        updateDescription: "更新版本到 v0.1.6。添加 handleImportAgent 函数处理已解析智能体的导入，在 AgentChat.jsx 中连接 onImportAgent 回调，增强 resolveExistingAgentTarget 和 buildChannelFromAgent 的日志输出，确保解析后的智能体能正确添加到频道列表并保存到本地存储，修复 public_gateways 生命周期问题、pubsub_topics 类型不匹配和未使用的导入，修复智能体加载时ID不一致导致的丢失问题，统一ID生成逻辑，确保保存和加载时使用相同的ID，修复DIAP身份面板IPNS字段丢失的问题，优化智能体去重逻辑，清理多余的调试日志，修复临时ID过滤逻辑。支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256: 54eff501bd40d16bf52e75745e2af74c0a3c6b6ddde8e2dd90289c76f7fc0998",
+        updateVersion: "v0.1.7",
+        updateDescription: "实现群聊遥控功能并升级版本。创建独立的 ImportAgentModal 组件用于导入其他节点的智能体，从 CreateAgentModal 中移除 IPNS/CID 解析功能，优化搜索栏的 IPNS/CID 自动解析功能，改进解析过程中的关闭和取消逻辑，修复图标大小和样式问题，添加完整的双语支持，优化智能体名称和头像的显示逻辑，实现智能体专属背景功能，支持按频道存储和模糊处理，添加图片模糊处理工具函数 (imageBlur.js)，实现按智能体(activeChannelId)独立存储背景图片，背景图片自动应用模糊效果(10px)，对话面板支持背景图片显示，右侧边栏透明化，支持毛玻璃效果，设置图标位置固定，不受侧边栏移动影响，重构 AgentChat 组件。支持 Windows 10/11 (64位)。",
+        updateSha256: "SHA256: 5aabf81a2281f22ccded8c0563c39da7a949f93e10a99179921d635870486397",
         mainTitle: "智能体支付平台",
         mainDescription:
             "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
@@ -348,8 +348,8 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.6/Alou_0.1.6_x64-setup.exe"
-                                    download="Alou_0.1.6_x64-setup.exe"
+                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.7/Alou_0.1.7_x64-setup.exe"
+                                    download="Alou_0.1.7_x64-setup.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
