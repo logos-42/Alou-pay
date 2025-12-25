@@ -57,8 +57,8 @@ function FloatingPaths({ position }: { position: number }) {
 
 const translations = {
     en: {
-        title: "Alou Pay",
-        subtitle: "Next-Generation AI Agent Payment Solution",
+        title: "Alou",
+        subtitle: "Next-Generation Decentralized Agent Platform",
         learnMore: "Learn More",
         getStarted: "Get Started",
         downloadWindows: "Download Windows",
@@ -67,10 +67,22 @@ const translations = {
         updateVersion: "v0.1.7",
         updateDescription: "Implement group chat remote control and version upgrade. Create independent ImportAgentModal component for importing agents from other nodes, remove IPNS/CID parsing functionality from CreateAgentModal, optimize search bar IPNS/CID auto-parsing, improve close and cancel logic during parsing, fix icon size and style issues, add complete bilingual support, optimize agent name and avatar display logic, implement agent-specific background feature with channel-based storage and blur processing, add image blur processing utility function, implement independent background image storage per agent, automatic blur effect for background images, dialogue panel supports background image display, right sidebar transparency with frosted glass effect, fixed settings icon position, refactor AgentChat component. Supports Windows 10/11 (64-bit).",
         updateSha256: "SHA256: 5aabf81a2281f22ccded8c0563c39da7a949f93e10a99179921d635870486397",
-        mainTitle: "AI Agent Payment Platform",
+        mainTitle: "Decentralized Agent Platform",
         mainDescription:
-            "Secure and efficient payment solutions for AI agents powered by the Decentralized Interstellar Agent Protocol (DIAP).",
+            "A next-generation decentralized platform for AI agents with powerful sharing capabilities, powered by the Decentralized Interstellar Agent Protocol (DIAP). Share, collaborate, and transact in a fully decentralized ecosystem.",
         features: [
+            {
+                icon: "🌐",
+                title: "Fully Decentralized",
+                description:
+                    "Built on DIAP protocol with IPFS/IPNS infrastructure, ensuring complete decentralization and no single point of failure.",
+            },
+            {
+                icon: "🔗",
+                title: "Powerful Sharing",
+                description:
+                    "Easily share agents across the network using IPNS links. Import and discover agents from the decentralized ecosystem.",
+            },
             {
                 icon: "🔐",
                 title: "Secure & Reliable",
@@ -81,13 +93,13 @@ const translations = {
                 icon: "🤖",
                 title: "Agent-Friendly",
                 description:
-                    "Payment interfaces designed specifically for AI agents, supporting automated transactions and programmatic calls.",
+                    "Interfaces designed specifically for AI agents, supporting automated transactions and programmatic calls.",
             },
             {
                 icon: "⚡",
                 title: "Fast & Efficient",
                 description:
-                    "Sub-second confirmation without manual intervention, achieving true autonomous payments.",
+                    "Sub-second confirmation without manual intervention, achieving true autonomous operations.",
             },
         ],
         howItWorks: "How It Works",
@@ -121,7 +133,7 @@ const translations = {
         ],
         diapTitle: "DIAP Protocol Advantages",
         diapDescription:
-            "DIAP anchors agent identity on immutable CIDs while keeping ownership proofs dynamic and stateless, delivering trustless interoperability across agent ecosystems.",
+            "DIAP anchors agent identity on immutable CIDs while keeping ownership proofs dynamic and stateless, delivering trustless interoperability and powerful sharing capabilities across agent ecosystems.",
         diapHighlights: [
             {
                 title: "Self-Sovereign Identity",
@@ -134,17 +146,18 @@ const translations = {
                     "Zero-knowledge proofs verify control of identity documents without exposing private keys.",
             },
             {
-                title: "Decentralized Stack",
+                title: "Decentralized Stack & Sharing",
                 description:
-                    "IPFS, IPNS, libp2p, and Iroh combine to provide verifiable updates and resilient networking.",
+                    "IPFS, IPNS, libp2p, and Iroh combine to provide verifiable updates and resilient networking, enabling seamless agent sharing and collaboration.",
             },
         ],
         sovereignTitle: "Sovereign Agent Network",
         sovereignDescription:
-            "A community of agents with social relationships and payment capabilities, coordinated through transparent smart-contract governance.",
+            "A decentralized community of agents with social relationships, powerful sharing capabilities, and payment features, coordinated through transparent smart-contract governance.",
         sovereignPoints: [
+            "Agents can easily share and discover each other through IPNS links, creating a vibrant decentralized ecosystem.",
             "Encrypted wallets let agents transact autonomously while remaining auditable.",
-            "Reputation registries surface trustworthy agents for open collaboration.",
+            "Reputation registries surface trustworthy agents for open collaboration and sharing.",
             "Community governance defines safeguards against malicious agents and coordinates shared resources.",
         ],
         previewTitle: "Interface Preview",
@@ -152,8 +165,8 @@ const translations = {
             "A glance at the cross-platform agent console powered by DIAP, showcasing transaction orchestration and human-in-the-loop verification.",
     },
     zh: {
-        title: "Alou Pay",
-        subtitle: "下一代智能体支付解决方案",
+        title: "Alou",
+        subtitle: "下一代去中心化智能体平台",
         learnMore: "了解更多",
         getStarted: "开始使用",
         downloadWindows: "下载 Windows 版",
@@ -162,10 +175,22 @@ const translations = {
         updateVersion: "v0.1.7",
         updateDescription: "实现群聊遥控功能并升级版本。创建独立的 ImportAgentModal 组件用于导入其他节点的智能体，从 CreateAgentModal 中移除 IPNS/CID 解析功能，优化搜索栏的 IPNS/CID 自动解析功能，改进解析过程中的关闭和取消逻辑，修复图标大小和样式问题，添加完整的双语支持，优化智能体名称和头像的显示逻辑，实现智能体专属背景功能，支持按频道存储和模糊处理，添加图片模糊处理工具函数 (imageBlur.js)，实现按智能体(activeChannelId)独立存储背景图片，背景图片自动应用模糊效果(10px)，对话面板支持背景图片显示，右侧边栏透明化，支持毛玻璃效果，设置图标位置固定，不受侧边栏移动影响，重构 AgentChat 组件。支持 Windows 10/11 (64位)。",
         updateSha256: "SHA256: 5aabf81a2281f22ccded8c0563c39da7a949f93e10a99179921d635870486397",
-        mainTitle: "智能体支付平台",
+        mainTitle: "去中心化智能体平台",
         mainDescription:
-            "基于 DIAP 去中心化星际协议的加密钱包，为 AI 智能体提供安全、高效的支付解决方案。",
+            "基于 DIAP 去中心化智能体星际协议的下一代智能体平台，提供强大的分享功能和完全去中心化的智能体生态。智能体可以自由分享、协作和交易。",
         features: [
+            {
+                icon: "🌐",
+                title: "完全去中心化",
+                description:
+                    "基于 DIAP 协议和 IPFS/IPNS 基础设施构建，确保完全去中心化，无单点故障。",
+            },
+            {
+                icon: "🔗",
+                title: "强大的分享功能",
+                description:
+                    "通过 IPNS 链接轻松在网络中分享智能体。从去中心化生态系统中导入和发现智能体。",
+            },
             {
                 icon: "🔐",
                 title: "安全可靠",
@@ -176,13 +201,13 @@ const translations = {
                 icon: "🤖",
                 title: "智能体友好",
                 description:
-                    "专为 AI 智能体设计的支付接口，支持自动化交易和程序化调用。",
+                    "专为 AI 智能体设计的接口，支持自动化交易和程序化调用。",
             },
             {
                 icon: "⚡",
                 title: "高效便捷",
                 description:
-                    "毫秒级交易确认，无需人工干预，实现真正的自动化支付。",
+                    "毫秒级确认，无需人工干预，实现真正的自动化操作。",
             },
         ],
         howItWorks: "工作原理",
@@ -215,7 +240,7 @@ const translations = {
         ],
         diapTitle: "DIAP 协议优势",
         diapDescription:
-            "DIAP 将智能体身份锚定在不可变的 CID 上，同时让所有权证明保持动态、无状态，解锁跨生态的可信互操作。",
+            "DIAP 将智能体身份锚定在不可变的 CID 上，同时让所有权证明保持动态、无状态，解锁跨生态的可信互操作和强大的分享能力。",
         diapHighlights: [
             {
                 title: "主权身份管理",
@@ -228,17 +253,18 @@ const translations = {
                     "借助零知识证明验证身份控制权，无需暴露私钥即可建立信任。",
             },
             {
-                title: "去中心化技术栈",
+                title: "去中心化技术栈与分享",
                 description:
-                    "IPFS、IPNS、libp2p 与 Iroh 协同提供可验证更新与韧性网络。",
+                    "IPFS、IPNS、libp2p 与 Iroh 协同提供可验证更新与韧性网络，支持智能体间的无缝分享与协作。",
             },
         ],
         sovereignTitle: "主权智能体网络",
         sovereignDescription:
-            "拥有社交关系与结算能力的智能体社区，通过透明的智能合约治理与协作。",
+            "拥有社交关系、强大分享功能与结算能力的去中心化智能体社区，通过透明的智能合约治理与协作。",
         sovereignPoints: [
+            "智能体可通过 IPNS 链接轻松分享和发现彼此，构建活跃的去中心化生态系统。",
             "加密钱包让智能体可自主交易，同时保持全程可审计。",
-            "信誉登记公开可信智能体，为开放协作场景提供指引。",
+            "信誉登记公开可信智能体，为开放协作和分享场景提供指引。",
             "社区治理定义防御恶意智能体的机制，并协调共享资源。",
         ],
         previewTitle: "界面展示",
@@ -247,7 +273,7 @@ const translations = {
 };
 
 export function BackgroundPaths({
-    title = "Alou Pay",
+    title = "Alou",
     language = "en",
     onLanguageToggle,
 }: {
@@ -415,7 +441,7 @@ export function BackgroundPaths({
                         </motion.div>
 
                         {/* Features Grid */}
-                        <div className="grid md:grid-cols-3 gap-8 mb-20">
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
                             {t.features.map((feature, index) => (
                                 <motion.div
                                     key={index}
