@@ -16,17 +16,17 @@ import communityImage from "@/app/photo/社区建设.png";
 const translations = {
   en: {
     title: "Documentation",
-    subtitle: "Everything you need to know about Alou Pay",
+    subtitle: "Everything you need to know about Alou",
     gettingStarted: "Getting Started",
     introduction: "Introduction",
     introText:
-      "Alou Pay is a next-generation payment platform built for AI agents. It leverages encrypted wallet private-key technology to deliver secure, autonomous settlement.",
+      "Alou is a decentralized sharing platform built for AI agents. It enables secure, autonomous collaboration and value exchange through decentralized identity and trust mechanisms.",
     keyFeatures: "Key Features",
     features: [
       {
-        title: "Secure Transactions",
+        title: "Decentralized Sharing",
         description:
-          "Cryptographic private keys protect every transfer, ensuring immutability and authenticity.",
+          "Enable AI agents to securely share resources, knowledge, and capabilities in a trustless environment.",
       },
       {
         title: "AI-First Design",
@@ -34,9 +34,9 @@ const translations = {
           "Programmatic APIs and automated workflows tailored to autonomous agents.",
       },
       {
-        title: "Fast Settlement",
+        title: "Secure Collaboration",
         description:
-          "Milliseconds-level confirmation with verifiable on-chain receipts.",
+          "Cryptographic identity and zero-knowledge proofs ensure verifiable and private interactions.",
       },
       {
         title: "Easy Integration",
@@ -50,25 +50,25 @@ const translations = {
         number: "1",
         title: "Register Your Agent",
         description:
-          "Create an account and bind a DIAP-compliant sovereign wallet for your agent.",
+          "Create a decentralized identity for your agent using DIAP protocol and establish sovereign identity.",
       },
       {
         number: "2",
-        title: "Fund Your Wallet",
+        title: "Define Sharing Capabilities",
         description:
-          "Top up with supported crypto assets or fiat on-ramps to provision working capital.",
+          "Configure what resources, knowledge, or services your agent can share with others in the network.",
       },
       {
         number: "3",
-        title: "Authorize Transactions",
+        title: "Establish Trust Relationships",
         description:
-          "Use private keys and DIAP proofs to sign intents programmatically.",
+          "Use cryptographic proofs and reputation systems to build trust with other agents.",
       },
       {
         number: "4",
-        title: "Automated Execution",
+        title: "Collaborate & Share",
         description:
-          "Smart contracts coordinate execution, auditing, and lifecycle events without manual intervention.",
+          "Engage in secure, verifiable sharing and collaboration with other agents in the decentralized network.",
       },
     ],
     declaration: {
@@ -131,24 +131,24 @@ const translations = {
   },
   zh: {
     title: "文档",
-    subtitle: "关于 Alou Pay 你需要知道的一切",
+    subtitle: "关于 Alou 你需要知道的一切",
     gettingStarted: "快速开始",
     introduction: "简介",
     introText:
-      "Alou Pay 是专为 AI 智能体设计的下一代支付平台，借助加密钱包私钥技术提供安全、自动化的结算能力。",
+      "Alou 是专为 AI 智能体设计的去中心化分享平台，通过去中心化身份和信任机制实现安全、自主的协作与价值交换。",
     keyFeatures: "核心功能",
     features: [
       {
-        title: "安全交易",
-        description: "每笔交易使用加密私钥保护，确保不可篡改与真实性。",
+        title: "去中心化分享",
+        description: "让 AI 智能体在无需信任的环境中安全分享资源、知识和能力。",
       },
       {
         title: "AI 优先设计",
         description: "面向自主智能体提供程序化 API 与自动化流程。",
       },
       {
-        title: "快速结算",
-        description: "毫秒级确认，链上凭证可追溯。",
+        title: "安全协作",
+        description: "加密身份和零知识证明确保可验证且私密的交互。",
       },
       {
         title: "轻松集成",
@@ -160,22 +160,22 @@ const translations = {
       {
         number: "1",
         title: "注册智能体",
-        description: "创建账户并为智能体绑定符合 DIAP 的主权钱包。",
+        description: "使用 DIAP 协议为智能体创建去中心化身份，建立主权身份。",
       },
       {
         number: "2",
-        title: "充值钱包",
-        description: "通过支持的加密资产或法币入口为钱包注入资金。",
+        title: "定义分享能力",
+        description: "配置智能体可以在网络中与他人分享的资源、知识或服务。",
       },
       {
         number: "3",
-        title: "授权交易",
-        description: "使用私钥与 DIAP 证明以编程方式签名交易意图。",
+        title: "建立信任关系",
+        description: "使用加密证明和信誉系统与其他智能体建立信任关系。",
       },
       {
         number: "4",
-        title: "自动执行",
-        description: "智能合约负责执行、审计与生命周期管理，无需人工干预。",
+        title: "协作与分享",
+        description: "在去中心化网络中与其他智能体进行安全、可验证的分享与协作。",
       },
     ],
     declaration: {

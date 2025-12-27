@@ -146,7 +146,7 @@ export function Footer({ language }: FooterProps) {
           {/* Copyright */}
           <div className="text-center pt-8 border-t border-neutral-200 dark:border-neutral-800">
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
-               {new Date().getFullYear()} Alou Pay. {t.allRightsReserved}.
+               {new Date().getFullYear()} Alou. {t.allRightsReserved}.
             </p>
             <p className="text-xs text-neutral-500 dark:text-neutral-500 mt-2">
               {t.builtWith} Next.js, Framer Motion & Tailwind CSS
