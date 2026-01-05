@@ -64,9 +64,9 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.1.7",
-        updateDescription: "Implement group chat remote control and version upgrade. Create independent ImportAgentModal component for importing agents from other nodes, remove IPNS/CID parsing functionality from CreateAgentModal, optimize search bar IPNS/CID auto-parsing, improve close and cancel logic during parsing, fix icon size and style issues, add complete bilingual support, optimize agent name and avatar display logic, implement agent-specific background feature with channel-based storage and blur processing, add image blur processing utility function, implement independent background image storage per agent, automatic blur effect for background images, dialogue panel supports background image display, right sidebar transparency with frosted glass effect, fixed settings icon position, refactor AgentChat component. Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: 5aabf81a2281f22ccded8c0563c39da7a949f93e10a99179921d635870486397",
+        updateVersion: "v0.1.8",
+        updateDescription: "Implement Claude Agent SDK compatibility layer and do mode. Add claude_sdk module to handle Claude Agent SDK format. Fix claude.rs route to enable real AI calls. Add /api/claude-agent/query endpoint. Support multi-model routing: deepseek, openai, claude, qwen, kimi. Implement format conversion and error handling. Verify English requests work properly, Chinese display needs optimization. Fix require error in useAgentMessages.js. Update tool configuration import method. Ensure tool calls work correctly in both Alou mode and Agent mode. Supports Windows 10/11 (64-bit).",
+        updateSha256: "SHA256: 77b3fadc9b02e310dfb89974c0533aec6ffd0c8e5c655f650700169d7196c992",
         mainTitle: "Decentralized Agent Platform",
         mainDescription:
             "A next-generation decentralized platform for AI agents with powerful sharing capabilities, powered by the Decentralized Interstellar Agent Protocol (DIAP). Share, collaborate, and transact in a fully decentralized ecosystem.",
@@ -172,9 +172,9 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.1.7",
-        updateDescription: "实现群聊遥控功能并升级版本。创建独立的 ImportAgentModal 组件用于导入其他节点的智能体，从 CreateAgentModal 中移除 IPNS/CID 解析功能，优化搜索栏的 IPNS/CID 自动解析功能，改进解析过程中的关闭和取消逻辑，修复图标大小和样式问题，添加完整的双语支持，优化智能体名称和头像的显示逻辑，实现智能体专属背景功能，支持按频道存储和模糊处理，添加图片模糊处理工具函数 (imageBlur.js)，实现按智能体(activeChannelId)独立存储背景图片，背景图片自动应用模糊效果(10px)，对话面板支持背景图片显示，右侧边栏透明化，支持毛玻璃效果，设置图标位置固定，不受侧边栏移动影响，重构 AgentChat 组件。支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256: 5aabf81a2281f22ccded8c0563c39da7a949f93e10a99179921d635870486397",
+        updateVersion: "v0.1.8",
+        updateDescription: "实现Claude Agent SDK兼容层和do模式。新增claude_sdk模块处理Claude Agent SDK格式。修复claude.rs路由，实现真实AI调用。添加/api/claude-agent/query端点。支持多模型路由：deepseek、openai、claude、qwen、kimi。实现格式转换和错误处理。验证英文请求工作正常，中文显示待优化。修复useAgentMessages.js中的require错误。更新工具配置导入方式。确保Alou模式和Agent模式的工具调用正常工作。支持 Windows 10/11 (64位)。",
+        updateSha256: "SHA256: 77b3fadc9b02e310dfb89974c0533aec6ffd0c8e5c655f650700169d7196c992",
         mainTitle: "去中心化智能体平台",
         mainDescription:
             "基于 DIAP 去中心化智能体星际协议的下一代智能体平台，提供强大的分享功能和完全去中心化的智能体生态。智能体可以自由分享、协作和交易。",
@@ -374,8 +374,8 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.7/Alou_0.1.7_x64-setup.exe"
-                                    download="Alou_0.1.7_x64-setup.exe"
+                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.8/Alou_0.1.8_x64-setup.exe"
+                                    download="Alou_0.1.8_x64-setup.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
