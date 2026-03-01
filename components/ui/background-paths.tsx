@@ -60,8 +60,8 @@ const translations = {
         title: "Alou",
         subtitle: "Next-Generation Decentralized Agent Platform",
         learnMore: "Learn More",
-        getStarted: "Get Started",
         downloadWindows: "Download Windows",
+        downloadMac: "Download Mac",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
         updateVersion: "v0.1.8",
@@ -168,8 +168,8 @@ const translations = {
         title: "Alou",
         subtitle: "下一代去中心化智能体平台",
         learnMore: "了解更多",
-        getStarted: "开始使用",
         downloadWindows: "下载 Windows 版",
+        downloadMac: "下载 Mac 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
         updateVersion: "v0.1.8",
@@ -384,17 +384,17 @@ export function BackgroundPaths({
                                     </a>
                                 </div>
 
-                                {/* Get Started 按钮 */}
-                                <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-purple-600/20 dark:from-blue-500/30 dark:to-purple-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                                    <Button
-                                        onClick={() => window.open("https://alou.onl", "_blank")}
-                                        variant="ghost"
-                                        className="rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-purple-500/50"
+                                {/* Download Mac 按钮 */}
+                                <div className="inline-block group relative bg-gradient-to-b from-slate-500/20 to-neutral-600/20 dark:from-slate-500/30 dark:to-neutral-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                    <a
+                                    href="https://github.com/logos-42/Alou-pay/releases/download/0.1.8/Alou_0.1.8_x64.dmg"
+                                    download="Alou_0.1.8_x64.dmg"
+                                        className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-slate-500 to-neutral-600 hover:from-slate-600 hover:to-neutral-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-slate-500/50 dark:hover:shadow-neutral-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
-                                            {t.getStarted}
+                                            {t.downloadMac}
                                         </span>
-                                    </Button>
+                                    </a>
                                 </div>
                             </div>
                             

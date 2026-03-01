@@ -12,14 +12,10 @@ const translations = {
   en: {
     docs: "Documentation",
     home: "Home",
-    download: "Download Windows",
-    downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables.",
   },
   zh: {
     docs: "文档",
     home: "首页",
-    download: "下载 Windows 版",
-    downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。",
   },
 };
 
