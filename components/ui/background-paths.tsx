@@ -60,6 +60,7 @@ const translations = {
         title: "Alou",
         subtitle: "Next-Generation Decentralized Agent Platform",
         downloadMac: "Download Mac",
+        downloadLinux: "Download Linux",
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
@@ -167,6 +168,7 @@ const translations = {
         title: "Alou",
         subtitle: "下一代去中心化智能体平台",
         downloadMac: "下载 Mac 版",
+        downloadLinux: "下载 Linux 版",
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
@@ -378,6 +380,19 @@ export function BackgroundPaths({
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
                                             {t.downloadMac}
+                                        </span>
+                                    </a>
+                                </div>
+
+                                {/* Download Linux 按钮 */}
+                                <div className="inline-block group relative bg-gradient-to-b from-orange-500/20 to-red-600/20 dark:from-orange-500/30 dark:to-red-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                    <a
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.11/Alou_0.1.11_amd64.AppImage"
+                                        download="Alou_0.1.11_amd64.AppImage"
+                                        className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-orange-500/50 dark:hover:shadow-red-500/50"
+                                    >
+                                        <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                            {t.downloadLinux}
                                         </span>
                                     </a>
                                 </div>
