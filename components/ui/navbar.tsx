@@ -12,14 +12,10 @@ const translations = {
   en: {
     docs: "Documentation",
     home: "Home",
-    download: "Download Windows",
-    downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables.",
   },
   zh: {
     docs: "文档",
     home: "首页",
-    download: "下载 Windows 版",
-    downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。",
   },
 };
 
@@ -38,21 +34,6 @@ export function Navbar({ language, onLanguageToggle }: NavbarProps) {
         </Link>
 
         <div className="flex items-center gap-6">
-          <a
-            href="https://github.com/logos-42/Alou-pay/releases/download/0.1.8/Alou_0.1.8_x64-setup.exe"
-            download="Alou_0.1.8_x64-setup.exe"
-            title={t.downloadSecurityNote}
-            className="px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white transition-all duration-300 font-medium"
-          >
-            {t.download}
-          </a>
-          <Link
-            href="/docs"
-            className="text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white transition-colors font-medium"
-          >
-            {t.docs}
-          </Link>
-
           <button
             onClick={onLanguageToggle}
             className="px-4 py-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-900 dark:text-white transition-all duration-300 font-medium"
