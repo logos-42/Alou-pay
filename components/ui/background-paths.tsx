@@ -60,6 +60,7 @@ const translations = {
         title: "Alou",
         subtitle: "Next-Generation Decentralized Agent Platform",
         downloadMac: "Download Mac",
+        downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
         updateVersion: "v0.1.8",
@@ -166,6 +167,7 @@ const translations = {
         title: "Alou",
         subtitle: "下一代去中心化智能体平台",
         downloadMac: "下载 Mac 版",
+        downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
         updateVersion: "v0.1.8",
@@ -354,12 +356,25 @@ export function BackgroundPaths({
                             className="flex flex-col items-center justify-center"
                         >
                             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-3">
-                                {/* Download Mac 按钮 */}
+                                {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                    <a
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.8/Alou_0.1.8_x64-setup.exe"
+                                        download="Alou_0.1.8_x64-setup.exe"
+                                        className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
+                                    >
+                                        <span className="opacity-90 group-hover:opacity-100 transition-opacity">
+                                            {t.downloadWindows}
+                                        </span>
+                                    </a>
+                                </div>
+
+                                {/* Download Mac 按钮 */}
+                                <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-indigo-600/20 dark:from-blue-500/30 dark:to-indigo-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
                                         href="https://github.com/logos-42/Alou-pay/releases/download/0.1.8/Alou_0.1.8_x64.dmg"
                                         download="Alou_0.1.8_x64.dmg"
-                                        className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
+                                        className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-indigo-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
                                             {t.downloadMac}
