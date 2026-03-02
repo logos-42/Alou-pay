@@ -64,7 +64,7 @@ const translations = {
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
         updateVersion: "v0.1.8",
-        updateDescription: "Implement Claude Agent SDK compatibility layer and do mode. Add claude_sdk module to handle Claude Agent SDK format. Fix claude.rs route to enable real AI calls. Add /api/claude-agent/query endpoint. Support multi-model routing: deepseek, openai, claude, qwen, kimi. Implement format conversion and error handling. Verify English requests work properly, Chinese display needs optimization. Fix require error in useAgentMessages.js. Update tool configuration import method. Ensure tool calls work correctly in both Alou mode and Agent mode. Supports Windows 10/11 (64-bit).",
+        updateDescription: "Supports Windows 10/11 (64-bit).",
         updateSha256: "SHA256: 77b3fadc9b02e310dfb89974c0533aec6ffd0c8e5c655f650700169d7196c992",
         mainTitle: "Decentralized Agent Platform",
         mainDescription:
@@ -171,7 +171,7 @@ const translations = {
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
         updateVersion: "v0.1.8",
-        updateDescription: "实现Claude Agent SDK兼容层和do模式。新增claude_sdk模块处理Claude Agent SDK格式。修复claude.rs路由，实现真实AI调用。添加/api/claude-agent/query端点。支持多模型路由：deepseek、openai、claude、qwen、kimi。实现格式转换和错误处理。验证英文请求工作正常，中文显示待优化。修复useAgentMessages.js中的require错误。更新工具配置导入方式。确保Alou模式和Agent模式的工具调用正常工作。支持 Windows 10/11 (64位)。",
+        updateDescription: "支持 Windows 10/11 (64位)。",
         updateSha256: "SHA256: 77b3fadc9b02e310dfb89974c0533aec6ffd0c8e5c655f650700169d7196c992",
         mainTitle: "去中心化智能体平台",
         mainDescription:
