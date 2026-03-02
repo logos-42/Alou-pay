@@ -361,7 +361,7 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.1.11/Alou_0.1.11_x64-setup.exe"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.11/Alou_0.1.11_x64-setup.exe"
                                         download="Alou_0.1.11_x64-setup.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
@@ -374,7 +374,7 @@ export function BackgroundPaths({
                                 {/* Download Mac 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-indigo-600/20 dark:from-blue-500/30 dark:to-indigo-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.1.11/Alou_0.1.11_x64.dmg"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.11/Alou_0.1.11_x64.dmg"
                                         download="Alou_0.1.11_x64.dmg"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-indigo-500/50"
                                     >
@@ -387,7 +387,7 @@ export function BackgroundPaths({
                                 {/* Download Linux 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-orange-500/20 to-red-600/20 dark:from-orange-500/30 dark:to-red-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.1.11/Alou_0.1.11_amd64.AppImage"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/0.1.11/Alou_0.1.11_amd64.AppImage"
                                         download="Alou_0.1.11_amd64.AppImage"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-orange-500/50 dark:hover:shadow-red-500/50"
                                     >
