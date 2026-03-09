@@ -66,7 +66,7 @@ const translations = {
         updateTitle: "Latest Update",
         updateVersion: "v0.2.0",
         updateDescription: "Supports Windows 10/11 (64-bit).",
-        updateSha256: "sha256:bda6659689099f778e7e99709cb34d23163f88f66b388abd15673bf0498ecb69",
+        updateSha256: "sha256:19d1cdd3b0bd85401078cec5cab699c6fcab3bfd5ec3d6ed3b67df2ae3b4713b",
         mainTitle: "Decentralized Agent Platform",
         mainDescription:
             "A next-generation decentralized platform for AI agents with powerful sharing capabilities, powered by the Decentralized Interstellar Agent Protocol (DIAP). Share, collaborate, and transact in a fully decentralized ecosystem.",
@@ -313,7 +313,7 @@ const translations = {
         updateTitle: "最新更新",
         updateVersion: "v0.2.0",
         updateDescription: "支持 Windows 10/11 (64位)。",
-        updateSha256: "sha256:bda6659689099f778e7e99709cb34d23163f88f66b388abd15673bf0498ecb69",
+        updateSha256: "sha256:19d1cdd3b0bd85401078cec5cab699c6fcab3bfd5ec3d6ed3b67df2ae3b4713b",
         mainTitle: "去中心化智能体平台",
         mainDescription:
             "基于 DIAP 去中心化智能体星际协议的下一代智能体平台，提供强大的分享功能和完全去中心化的智能体生态。智能体可以自由分享、协作和交易。",
@@ -665,8 +665,8 @@ export function BackgroundPaths({
                                 {/* Download Linux 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-orange-500/20 to-red-600/20 dark:from-orange-500/30 dark:to-red-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.2.0/Alou_0.2.0_amd64.AppImage"
-                                        download="Alou_0.2.0_amd64.AppImage"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.2.0/alou-desktop-src-linux-x86_64-0.2.0.tar.gz"
+                                        download="alou-desktop-src-linux-x86_64-0.2.0.tar.gz"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-orange-500/50 dark:hover:shadow-red-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
