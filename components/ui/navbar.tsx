@@ -34,6 +34,12 @@ export function Navbar({ language, onLanguageToggle }: NavbarProps) {
         </Link>
 
         <div className="flex items-center gap-6">
+          <Link 
+            href="/docs" 
+            className="text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-white transition-colors font-medium"
+          >
+            {language === 'en' ? '文档' : 'Docs'}
+          </Link>
           <button
             onClick={onLanguageToggle}
             className="px-4 py-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 text-neutral-900 dark:text-white transition-all duration-300 font-medium"

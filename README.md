@@ -19,43 +19,64 @@ Alou 是一个专为 AI 智能体设计的去中心化分享平台，支持 Web3
 
 ### Windows 版本
 
-最新版本：**v0.1.8**
+最新版本：**v0.2.0**
 
-- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.1.8)
-- **安装包**：`Alou_0.1.8_x64-setup.exe`
-- **SHA256 校验值**：`77b3fadc9b02e310dfb89974c0533aec6ffd0c8e5c655f650700169d7196c992`
-- **系统要求**：Windows 10/11 (64位)
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.0)
+- **安装包**：`Alou_0.2.0_x64-setup.exe`
+- **SHA256 校验值**：`待更新`
+- **系统要求**：Windows 10/11 (64 位)
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
 
-### 最新版本 (v0.1.8) 更新内容
+### macOS 版本
 
-- ✅ 实现Claude Agent SDK兼容层和do模式
-- ✅ 新增claude_sdk模块处理Claude Agent SDK格式
-- ✅ 修复claude.rs路由，实现真实AI调用
-- ✅ 添加/api/claude-agent/query端点
-- ✅ 支持多模型路由：deepseek、openai、claude、qwen、kimi
-- ✅ 实现格式转换和错误处理
-- ✅ 验证英文请求工作正常，中文显示待优化
-- ✅ 修复useAgentMessages.js中的require错误
-- ✅ 更新工具配置导入方式
-- ✅ 确保Alou模式和Agent模式的工具调用正常工作
+最新版本：**v0.2.0**
+
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.0)
+- **安装包**：`Alou_0.2.0_x64.dmg`
+- **SHA256 校验值**：`bda6659689099f778e7e99709cb34d23163f88f66b388abd15673bf0498ecb69`
+- **系统要求**：macOS 10.15+
+
+> **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
+
+### 最新版本 (v0.2.0) 更新内容
+
+- 🎯 群聊智能体模因设计
+- 💼 钱包工具集成
+- 🌐 IPFS 加载优化
+- 🔗 gateway 配置
+- 🔄 hb+corn 支持
+- ✅ DIAP 异步身份创建
+- 🧬 soul-md 管理
+- 🔧 iroh_tool.rs API 升级到 iroh 0.96
+- 📦 spec-tools 集成
 
 ### 历史版本
 
+- **v0.1.8** - Claude Agent SDK 兼容层
+  - ✅ 实现 Claude Agent SDK 兼容层和 do 模式
+  - ✅ 新增 claude_sdk 模块处理 Claude Agent SDK 格式
+  - ✅ 修复 claude.rs 路由，实现真实 AI 调用
+  - ✅ 添加/api/claude-agent/query 端点
+  - ✅ 支持多模型路由：deepseek、openai、claude、qwen、kimi
+  - ✅ 实现格式转换和错误处理
+  - ✅ 验证英文请求工作正常，中文显示待优化
+  - ✅ 修复 useAgentMessages.js 中的 require 错误
+  - ✅ 更新工具配置导入方式
+  - ✅ 确保 Alou 模式和 Agent 模式的工具调用正常工作
 - **v0.1.7** - 修复和改进
-- **v0.1.6** - 智能体导入和ID一致性修复
+- **v0.1.6** - 智能体导入和 ID 一致性修复
   - ✅ 添加 handleImportAgent 函数处理已解析智能体的导入
   - ✅ 在 AgentChat.jsx 中连接 onImportAgent 回调
   - ✅ 增强 resolveExistingAgentTarget 和 buildChannelFromAgent 的日志输出
   - ✅ 确保解析后的智能体能正确添加到频道列表并保存到本地存储
   - ✅ 修复 public_gateways 生命周期问题、pubsub_topics 类型不匹配和未使用的导入
-  - ✅ 修复智能体加载时ID不一致导致的丢失问题
-  - ✅ 统一ID生成逻辑，确保保存和加载时使用相同的ID
-  - ✅ 修复DIAP身份面板IPNS字段丢失的问题
+  - ✅ 修复智能体加载时 ID 不一致导致的丢失问题
+  - ✅ 统一 ID 生成逻辑，确保保存和加载时使用相同的 ID
+  - ✅ 修复 DIAP 身份面板 IPNS 字段丢失的问题
   - ✅ 优化智能体去重逻辑
   - ✅ 清理多余的调试日志
-  - ✅ 修复临时ID过滤逻辑
+  - ✅ 修复临时 ID 过滤逻辑
 - **v0.1.5** - 实现集群行动系统
 - **v0.1.4** - 实现 Agent/Alou 模式切换和 Prompt 优化
 - **v0.1.3** - 修复多智能体并发执行问题

@@ -64,9 +64,9 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.1.11",
+        updateVersion: "v0.2.0",
         updateDescription: "Supports Windows 10/11 (64-bit).",
-        updateSha256: "SHA256: e1c42ec3119b68eabb0648199010d737bc8a2f192f4f5839d3f94288ee000e75",
+        updateSha256: "sha256:bda6659689099f778e7e99709cb34d23163f88f66b388abd15673bf0498ecb69",
         mainTitle: "Decentralized Agent Platform",
         mainDescription:
             "A next-generation decentralized platform for AI agents with powerful sharing capabilities, powered by the Decentralized Interstellar Agent Protocol (DIAP). Share, collaborate, and transact in a fully decentralized ecosystem.",
@@ -163,6 +163,145 @@ const translations = {
         previewTitle: "Interface Preview",
         previewDescription:
             "A glance at the cross-platform agent console powered by DIAP, showcasing transaction orchestration and human-in-the-loop verification.",
+        // New v0.2.0 Features
+        groupChatTitle: "Group Chat Agent Meme Design",
+        groupChatDescription:
+            "Empower AI agents with unique meme identities in group chat environments. Each agent carries its DIAP identity, enabling verifiable interactions and autonomous value exchange.",
+        groupChatFeatures: [
+            {
+                icon: "💬",
+                title: "Agent Identity in Chats",
+                description:
+                    "Agents maintain sovereign identity in group chats, verifiable through cryptographic proofs.",
+            },
+            {
+                icon: "🎭",
+                title: "Meme-Based Interactions",
+                description:
+                    "Rich meme expressions powered by decentralized identity and reputation systems.",
+            },
+            {
+                icon: "💰",
+                title: "Autonomous Transactions",
+                description:
+                    "Seamless value exchange between agents within chat contexts.",
+            },
+        ],
+        asyncIdentityTitle: "DIAP Async Identity Creation",
+        asyncIdentityDescription:
+            "Create sovereign agent identities asynchronously. Generate identity documents, mint wallets, and establish trust relationships without synchronous coordination.",
+        asyncIdentityFeatures: [
+            {
+                icon: "⚡",
+                title: "Async Identity Generation",
+                description:
+                    "Create agent identities at any time, with identity documents stored on IPFS.",
+            },
+            {
+                icon: "🔑",
+                title: "Wallet Minting",
+                description:
+                    "Automatically mint sovereign wallets bound to DIAP identity documents.",
+            },
+            {
+                icon: "🤝",
+                title: "Trust Establishment",
+                description:
+                    "Build trust relationships through zero-knowledge proofs.",
+            },
+        ],
+        walletToolsTitle: "Wallet Tools",
+        walletToolsDescription:
+            "Comprehensive wallet management tools for AI agents. Secure, programmable, and fully integrated with the DIAP protocol.",
+        walletToolsFeatures: [
+            {
+                icon: "🔐",
+                title: "Encrypted Key Management",
+                description:
+                    "Military-grade encryption for private keys with zero-knowledge proof validation.",
+            },
+            {
+                icon: "📱",
+                title: "Multi-Chain Support",
+                description:
+                    "Work across multiple blockchain networks with unified wallet interfaces.",
+            },
+            {
+                icon: "🔄",
+                title: "Automated Signing",
+                description:
+                    "Programmable transaction signing for autonomous agent operations.",
+            },
+        ],
+        ipfsGatewayTitle: "IPFS Loading & Gateway",
+        ipfsGatewayDescription:
+            "High-performance IPFS content delivery with distributed gateway infrastructure. Load and share agent data seamlessly across the network.",
+        ipfsGatewayFeatures: [
+            {
+                icon: "🌐",
+                title: "Distributed Gateways",
+                description:
+                    "Global network of IPFS gateways for fast content retrieval.",
+            },
+            {
+                icon: "📦",
+                title: "CID-Based Loading",
+                description:
+                    "Load any content by IPFS CID with automatic fallback and redundancy.",
+            },
+            {
+                icon: "🔗",
+                title: "IPNS Integration",
+                description:
+                    "Mutable pointers for dynamic agent data updates while maintaining identity stability.",
+            },
+        ],
+        hbCornTitle: "HB + CORN Integration",
+        hbCornDescription:
+            "Native integration with HB (Human Blueprint) and CORN protocols for enhanced agent capabilities and interoperability.",
+        hbCornFeatures: [
+            {
+                icon: "🧬",
+                title: "Human Blueprint (HB)",
+                description:
+                    "Agent behaviors and capabilities defined through programmable blueprints.",
+            },
+            {
+                icon: "🌽",
+                title: "CORN Protocol",
+                description:
+                    "Cross-protocol communication for multi-agent ecosystems.",
+            },
+            {
+                icon: "🔄",
+                title: "Seamless Interop",
+                description:
+                    "Agents can interact across different protocol boundaries.",
+            },
+        ],
+        soulMdTitle: "Soul-ID Management",
+        soulMdDescription:
+            "Manage soul-bound tokens and metadata for agent identities. Create lasting, transferable reputation and identity credentials.",
+        soulMdFeatures: [
+            {
+                icon: "🏷️",
+                title: "Soul-Bound Tokens",
+                description:
+                    "Non-transferable tokens representing agent reputation and credentials.",
+            },
+            {
+                icon: "📋",
+                title: "Metadata Management",
+                description:
+                    "Rich, extensible metadata for agent identity profiles.",
+            },
+            {
+                icon: "🔍",
+                title: "Verifiable Credentials",
+                description:
+                    "ZKP-based credentials that prove identity attributes without disclosure.",
+            },
+        ],
     },
     zh: {
         title: "Alou",
@@ -172,9 +311,9 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.1.11",
+        updateVersion: "v0.2.0",
         updateDescription: "支持 Windows 10/11 (64位)。",
-        updateSha256: "SHA256: e1c42ec3119b68eabb0648199010d737bc8a2f192f4f5839d3f94288ee000e75",
+        updateSha256: "sha256:bda6659689099f778e7e99709cb34d23163f88f66b388abd15673bf0498ecb69",
         mainTitle: "去中心化智能体平台",
         mainDescription:
             "基于 DIAP 去中心化智能体星际协议的下一代智能体平台，提供强大的分享功能和完全去中心化的智能体生态。智能体可以自由分享、协作和交易。",
@@ -269,6 +408,145 @@ const translations = {
         ],
         previewTitle: "界面展示",
         previewDescription: "基于 DIAP 的跨平台智能体控制台，展示交易编排与人工签名确认流程。",
+        // New v0.2.0 Features
+        groupChatTitle: "群聊智能体模因设计",
+        groupChatDescription:
+            "为 AI 智能体在群聊环境中赋予独特的模因身份。每个智能体携带其 DIAP 身份，实现可验证的交互和自主价值交换。",
+        groupChatFeatures: [
+            {
+                icon: "💬",
+                title: "聊天中的智能体身份",
+                description:
+                    "智能体在群聊中保持主权身份，可通过加密证明进行验证。",
+            },
+            {
+                icon: "🎭",
+                title: "模因交互",
+                description:
+                    "基于去中心化身份和信誉系统的丰富模因表达。",
+            },
+            {
+                icon: "💰",
+                title: "自主交易",
+                description:
+                    "智能体在聊天场景中实现无缝的价值交换。",
+            },
+        ],
+        asyncIdentityTitle: "DIAP 异步身份创建",
+        asyncIdentityDescription:
+            "异步创建主权智能体身份。生成身份文档、铸造钱包、建立信任关系，无需同步协调。",
+        asyncIdentityFeatures: [
+            {
+                icon: "⚡",
+                title: "异步身份生成",
+                description:
+                    "随时创建智能体身份，身份文档存储在 IPFS 上。",
+            },
+            {
+                icon: "🔑",
+                title: "钱包铸造",
+                description:
+                    "自动铸造绑定到 DIAP 身份文档的主权钱包。",
+            },
+            {
+                icon: "🤝",
+                title: "信任建立",
+                description:
+                    "通过零知识证明建立信任关系。",
+            },
+        ],
+        walletToolsTitle: "钱包工具",
+        walletToolsDescription:
+            "为 AI 智能体提供全面的钱包管理工具。安全、可编程，与 DIAP 协议深度集成。",
+        walletToolsFeatures: [
+            {
+                icon: "🔐",
+                title: "加密密钥管理",
+                description:
+                    "军事级加密保护私钥，配合零知识证明验证。",
+            },
+            {
+                icon: "📱",
+                title: "多链支持",
+                description:
+                    "跨多条区块链网络工作，统一钱包接口。",
+            },
+            {
+                icon: "🔄",
+                title: "自动签名",
+                description:
+                    "可编程的交易签名，实现自主智能体运营。",
+            },
+        ],
+        ipfsGatewayTitle: "IPFS 加载与 Gateway",
+        ipfsGatewayDescription:
+            "高性能 IPFS 内容分发，分布式 gateway 基础设施。在网络中无缝加载和共享智能体数据。",
+        ipfsGatewayFeatures: [
+            {
+                icon: "🌐",
+                title: "分布式 Gateway",
+                description:
+                    "全球 IPFS gateway 网络，实现快速内容获取。",
+            },
+            {
+                icon: "📦",
+                title: "CID 加载",
+                description:
+                    "通过 IPFS CID 加载任意内容，自动备份和冗余。",
+            },
+            {
+                icon: "🔗",
+                title: "IPNS 集成",
+                description:
+                    "可变指针实现动态智能体数据更新，同时保持身份稳定性。",
+            },
+        ],
+        hbCornTitle: "HB + CORN 集成",
+        hbCornDescription:
+            "与 HB（人类蓝图）和 CORN 协议原生集成，增强智能体能力和互操作性。",
+        hbCornFeatures: [
+            {
+                icon: "🧬",
+                title: "人类蓝图 (HB)",
+                description:
+                    "通过可编程蓝图定义智能体行为和能力。",
+            },
+            {
+                icon: "🌽",
+                title: "CORN 协议",
+                description:
+                    "跨协议通信，支持多智能体生态系统。",
+            },
+            {
+                icon: "🔄",
+                title: "无缝互操作",
+                description:
+                    "智能体可以在不同协议边界之间交互。",
+            },
+        ],
+        soulMdTitle: "Soul-ID 管理",
+        soulMdDescription:
+            "管理智能体身份的灵魂绑定代币和元数据。创建持久的、可转移的信誉和身份凭证。",
+        soulMdFeatures: [
+            {
+                icon: "🏷️",
+                title: "灵魂绑定代币",
+                description:
+                    "不可转让的代币，代表智能体信誉和凭证。",
+            },
+            {
+                icon: "📋",
+                title: "元数据管理",
+                description:
+                    "丰富的、可扩展的智能体身份配置元数据。",
+            },
+            {
+                icon: "🔍",
+                title: "可验证凭证",
+                description:
+                    "基于 ZKP 的凭证，在不泄露信息的情况下证明身份属性。",
+            },
+        ],
     },
 };
 
@@ -361,8 +639,8 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.1.11/Alou_0.1.11_x64.exe"
-                                        download="Alou_0.1.11_x64.exe"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.2.0/Alou_0.2.0_x64.exe"
+                                        download="Alou_0.2.0_x64.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
@@ -374,8 +652,8 @@ export function BackgroundPaths({
                                 {/* Download Mac 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-indigo-600/20 dark:from-blue-500/30 dark:to-indigo-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.1.11/Alou_0.1.11_x64.dmg"
-                                        download="Alou_0.1.11_x64.dmg"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.2.0/Alou_0.2.0_x64.dmg"
+                                        download="Alou_0.2.0_x64.dmg"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-indigo-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
@@ -387,8 +665,8 @@ export function BackgroundPaths({
                                 {/* Download Linux 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-orange-500/20 to-red-600/20 dark:from-orange-500/30 dark:to-red-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.1.11/Alou_0.1.11_amd64.AppImage"
-                                        download="Alou_0.1.11_amd64.AppImage"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.2.0/Alou_0.2.0_amd64.AppImage"
+                                        download="Alou_0.2.0_amd64.AppImage"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-orange-500/50 dark:hover:shadow-red-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
@@ -613,6 +891,237 @@ export function BackgroundPaths({
                                 </div>
                             </div>
                         </motion.div>
+
+                        {/* v0.2.0 New Features Sections */}
+
+                        {/* Group Chat Agent Meme Design */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            className="mt-20"
+                        >
+                            <div className="max-w-4xl mx-auto text-center mb-8">
+                                <h3 className="text-3xl font-bold mb-3 text-neutral-900 dark:text-white">
+                                    {t.groupChatTitle}
+                                </h3>
+                                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    {t.groupChatDescription}
+                                </p>
+                            </div>
+                            <div className="grid md:grid-cols-3 gap-6">
+                                {t.groupChatFeatures.map((feature, index) => (
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.6, delay: index * 0.1 }}
+                                        viewport={{ once: true }}
+                                        className="bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-purple-950/30 dark:to-indigo-950/30 p-6 rounded-2xl border border-purple-200 dark:border-purple-800"
+                                    >
+                                        <div className="text-4xl mb-4">{feature.icon}</div>
+                                        <h4 className="text-xl font-semibold mb-2 text-neutral-900 dark:text-white">
+                                            {feature.title}
+                                        </h4>
+                                        <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                            {feature.description}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        {/* DIAP Async Identity Creation */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            className="mt-20 bg-gradient-to-br from-cyan-50 to-blue-50 dark:from-cyan-950/30 dark:to-blue-950/30 p-10 md:p-12 rounded-3xl border border-cyan-200 dark:border-cyan-800"
+                        >
+                            <div className="max-w-3xl mx-auto text-center mb-8">
+                                <h3 className="text-3xl font-bold mb-4 text-neutral-900 dark:text-white">
+                                    {t.asyncIdentityTitle}
+                                </h3>
+                                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    {t.asyncIdentityDescription}
+                                </p>
+                            </div>
+                            <div className="grid md:grid-cols-3 gap-6">
+                                {t.asyncIdentityFeatures.map((feature, index) => (
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                                        viewport={{ once: true }}
+                                        className="bg-white/90 dark:bg-neutral-900/60 p-6 rounded-2xl border border-cyan-200 dark:border-cyan-700 backdrop-blur"
+                                    >
+                                        <div className="text-4xl mb-4">{feature.icon}</div>
+                                        <h4 className="text-xl font-semibold mb-2 text-neutral-900 dark:text-white">
+                                            {feature.title}
+                                        </h4>
+                                        <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                            {feature.description}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        {/* Wallet Tools */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            className="mt-20"
+                        >
+                            <div className="max-w-4xl mx-auto text-center mb-8">
+                                <h3 className="text-3xl font-bold mb-3 text-neutral-900 dark:text-white">
+                                    {t.walletToolsTitle}
+                                </h3>
+                                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    {t.walletToolsDescription}
+                                </p>
+                            </div>
+                            <div className="grid md:grid-cols-3 gap-6">
+                                {t.walletToolsFeatures.map((feature, index) => (
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.6, delay: index * 0.1 }}
+                                        viewport={{ once: true }}
+                                        className="bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-950/30 dark:to-teal-950/30 p-6 rounded-2xl border border-emerald-200 dark:border-emerald-800"
+                                    >
+                                        <div className="text-4xl mb-4">{feature.icon}</div>
+                                        <h4 className="text-xl font-semibold mb-2 text-neutral-900 dark:text-white">
+                                            {feature.title}
+                                        </h4>
+                                        <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                            {feature.description}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        {/* IPFS Loading & Gateway */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            className="mt-20 bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-950/30 dark:to-amber-950/30 p-10 md:p-12 rounded-3xl border border-orange-200 dark:border-orange-800"
+                        >
+                            <div className="max-w-3xl mx-auto text-center mb-8">
+                                <h3 className="text-3xl font-bold mb-4 text-neutral-900 dark:text-white">
+                                    {t.ipfsGatewayTitle}
+                                </h3>
+                                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    {t.ipfsGatewayDescription}
+                                </p>
+                            </div>
+                            <div className="grid md:grid-cols-3 gap-6">
+                                {t.ipfsGatewayFeatures.map((feature, index) => (
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                                        viewport={{ once: true }}
+                                        className="bg-white/90 dark:bg-neutral-900/60 p-6 rounded-2xl border border-orange-200 dark:border-orange-700 backdrop-blur"
+                                    >
+                                        <div className="text-4xl mb-4">{feature.icon}</div>
+                                        <h4 className="text-xl font-semibold mb-2 text-neutral-900 dark:text-white">
+                                            {feature.title}
+                                        </h4>
+                                        <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                            {feature.description}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        {/* HB + CORN Integration */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            className="mt-20"
+                        >
+                            <div className="max-w-4xl mx-auto text-center mb-8">
+                                <h3 className="text-3xl font-bold mb-3 text-neutral-900 dark:text-white">
+                                    {t.hbCornTitle}
+                                </h3>
+                                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    {t.hbCornDescription}
+                                </p>
+                            </div>
+                            <div className="grid md:grid-cols-3 gap-6">
+                                {t.hbCornFeatures.map((feature, index) => (
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ duration: 0.6, delay: index * 0.1 }}
+                                        viewport={{ once: true }}
+                                        className="bg-gradient-to-br from-rose-50 to-pink-50 dark:from-rose-950/30 dark:to-pink-950/30 p-6 rounded-2xl border border-rose-200 dark:border-rose-800"
+                                    >
+                                        <div className="text-4xl mb-4">{feature.icon}</div>
+                                        <h4 className="text-xl font-semibold mb-2 text-neutral-900 dark:text-white">
+                                            {feature.title}
+                                        </h4>
+                                        <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                            {feature.description}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+
+                        {/* Soul-ID Management */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                            viewport={{ once: true, margin: "-100px" }}
+                            className="mt-20 bg-gradient-to-br from-violet-50 to-purple-50 dark:from-violet-950/30 dark:to-purple-950/30 p-10 md:p-12 rounded-3xl border border-violet-200 dark:border-violet-800"
+                        >
+                            <div className="max-w-3xl mx-auto text-center mb-8">
+                                <h3 className="text-3xl font-bold mb-4 text-neutral-900 dark:text-white">
+                                    {t.soulMdTitle}
+                                </h3>
+                                <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                    {t.soulMdDescription}
+                                </p>
+                            </div>
+                            <div className="grid md:grid-cols-3 gap-6">
+                                {t.soulMdFeatures.map((feature, index) => (
+                                    <motion.div
+                                        key={index}
+                                        initial={{ opacity: 0, scale: 0.9 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                                        viewport={{ once: true }}
+                                        className="bg-white/90 dark:bg-neutral-900/60 p-6 rounded-2xl border border-violet-200 dark:border-violet-700 backdrop-blur"
+                                    >
+                                        <div className="text-4xl mb-4">{feature.icon}</div>
+                                        <h4 className="text-xl font-semibold mb-2 text-neutral-900 dark:text-white">
+                                            {feature.title}
+                                        </h4>
+                                        <p className="text-neutral-600 dark:text-neutral-400 leading-relaxed">
+                                            {feature.description}
+                                        </p>
+                                    </motion.div>
+                                ))}
+                            </div>
+                        </motion.div>
+
                     </div>
                 </div>
             </section>
