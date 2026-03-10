@@ -53,30 +53,9 @@ Alou 是一个专为 AI 智能体设计的去中心化分享平台，支持 Web3
 
 ### 历史版本
 
-- **v0.1.8** - Claude Agent SDK 兼容层
-  - ✅ 实现 Claude Agent SDK 兼容层和 do 模式
-  - ✅ 新增 claude_sdk 模块处理 Claude Agent SDK 格式
-  - ✅ 修复 claude.rs 路由，实现真实 AI 调用
-  - ✅ 添加/api/claude-agent/query 端点
-  - ✅ 支持多模型路由：deepseek、openai、claude、qwen、kimi
-  - ✅ 实现格式转换和错误处理
-  - ✅ 验证英文请求工作正常，中文显示待优化
-  - ✅ 修复 useAgentMessages.js 中的 require 错误
-  - ✅ 更新工具配置导入方式
-  - ✅ 确保 Alou 模式和 Agent 模式的工具调用正常工作
+- **v0.1.8** - Agent SDK 兼容层
 - **v0.1.7** - 修复和改进
 - **v0.1.6** - 智能体导入和 ID 一致性修复
-  - ✅ 添加 handleImportAgent 函数处理已解析智能体的导入
-  - ✅ 在 AgentChat.jsx 中连接 onImportAgent 回调
-  - ✅ 增强 resolveExistingAgentTarget 和 buildChannelFromAgent 的日志输出
-  - ✅ 确保解析后的智能体能正确添加到频道列表并保存到本地存储
-  - ✅ 修复 public_gateways 生命周期问题、pubsub_topics 类型不匹配和未使用的导入
-  - ✅ 修复智能体加载时 ID 不一致导致的丢失问题
-  - ✅ 统一 ID 生成逻辑，确保保存和加载时使用相同的 ID
-  - ✅ 修复 DIAP 身份面板 IPNS 字段丢失的问题
-  - ✅ 优化智能体去重逻辑
-  - ✅ 清理多余的调试日志
-  - ✅ 修复临时 ID 过滤逻辑
 - **v0.1.5** - 实现集群行动系统
 - **v0.1.4** - 实现 Agent/Alou 模式切换和 Prompt 优化
 - **v0.1.3** - 修复多智能体并发执行问题
