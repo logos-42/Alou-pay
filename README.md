@@ -19,37 +19,33 @@ Alou 是一个专为 AI 智能体设计的去中心化分享平台，支持 Web3
 
 ### Windows 版本
 
-最新版本：**v0.2.0**
+最新版本：**v0.2.1**
 
-- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.0)
-- **安装包**：`Alou_0.2.0_x64-setup.exe`
-- **SHA256 校验值**：`待更新`
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.1)
+- **安装包**：`Alou_0.2.1_x64-setup.exe`
+- **SHA256 校验值**：`d7590c13d6e14267b76f59ac6bbdcdf814de488274a35c40159d66102af0d2cf`
 - **系统要求**：Windows 10/11 (64 位)
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
 
 ### macOS 版本
 
-最新版本：**v0.2.0**
+最新版本：**v0.2.1**
 
-- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.0)
-- **安装包**：`Alou_0.2.0_x64.dmg`
-- **SHA256 校验值**：`bda6659689099f778e7e99709cb34d23163f88f66b388abd15673bf0498ecb69`
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.1)
+- **安装包**：`Alou_0.2.1_x64.dmg`
+- **SHA256 校验值**：`eaf8a21575d27f883ffd293fb165e664f71675256ff356696d5787a586c6936b`
 - **系统要求**：macOS 10.15+
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
 
-### 最新版本 (v0.2.0) 更新内容
+### 最新版本 (v0.2.1) 更新内容
 
-- 🎯 群聊智能体模因设计
-- 💼 钱包工具集成
-- 🌐 IPFS 加载优化
-- 🔗 gateway 配置
-- 🔄 hb+corn 支持
-- ✅ DIAP 异步身份创建
-- 🧬 soul-md 管理
-- 🔧 iroh_tool.rs API 升级到 iroh 0.96
-- 📦 spec-tools 集成
+- 🔧 修复页面闪动
+- ✅ DIAP 身份加载优化，支持点击创建
+- 📁 Agent ID 加载路径注入文件
+- ⚡ 并发 session 支持
+- 🔧 修复工具注册，提升数量
 
 ### 历史版本
 
