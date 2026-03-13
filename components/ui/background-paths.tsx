@@ -66,7 +66,8 @@ const translations = {
         updateTitle: "Latest Update",
         updateVersion: "v0.2.2",
         updateDescription: "Supports Windows 10/11 (64-bit).",
-        updateSha256: "sha256:ae3b13fa724b1a4a2e98bd1ece65f10f1254df8300a8162cffca17a41fae466c",
+        updateSha256Win: "sha256:3edc957ade1fa07be0e21067c80ab556b35459362832bab9da508aa12df206c4",
+        updateSha256Mac: "sha256:0d11d64244e931601eb9773080ad4a6f96d512dd078b2a7ceda879f121381ea3",
         mainTitle: "Decentralized Agent Platform",
         mainDescription:
             "A next-generation decentralized platform for AI agents with powerful sharing capabilities, powered by the Decentralized Interstellar Agent Protocol (DIAP). Share, collaborate, and transact in a fully decentralized ecosystem.",
@@ -313,7 +314,8 @@ const translations = {
         updateTitle: "最新更新",
         updateVersion: "v0.2.2",
         updateDescription: "支持 Windows 10/11 (64位)。",
-        updateSha256: "sha256:ae3b13fa724b1a4a2e98bd1ece65f10f1254df8300a8162cffca17a41fae466c",
+        updateSha256Win: "sha256:3edc957ade1fa07be0e21067c80ab556b35459362832bab9da508aa12df206c4",
+        updateSha256Mac: "sha256:0d11d64244e931601eb9773080ad4a6f96d512dd078b2a7ceda879f121381ea3",
         mainTitle: "去中心化智能体平台",
         mainDescription:
             "基于 DIAP 去中心化智能体星际协议的下一代智能体平台，提供强大的分享功能和完全去中心化的智能体生态。智能体可以自由分享、协作和交易。",
