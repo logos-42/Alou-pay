@@ -19,33 +19,32 @@ Alou 是一个专为 AI 智能体设计的去中心化分享平台，支持 Web3
 
 ### Windows 版本
 
-最新版本：**v0.2.1**
+最新版本：**v0.2.2**
 
-- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.1)
-- **安装包**：`Alou_0.2.1_x64-setup.exe`
-- **SHA256 校验值**：`d7590c13d6e14267b76f59ac6bbdcdf814de488274a35c40159d66102af0d2cf`
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/v0.2.2)
+- **安装包**：`Alou_0.2.2_x64-setup.exe`
+- **SHA256 校验值**：`ae3b13fa724b1a4a2e98bd1ece65f10f1254df8300a8162cffca17a41fae466c`
 - **系统要求**：Windows 10/11 (64 位)
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
 
 ### macOS 版本
 
-最新版本：**v0.2.1**
+最新版本：**v0.2.2**
 
-- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/0.2.1)
-- **安装包**：`Alou_0.2.1_x64.dmg`
-- **SHA256 校验值**：`eaf8a21575d27f883ffd293fb165e664f71675256ff356696d5787a586c6936b`
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/v0.2.2)
+- **安装包**：`Alou_0.2.2_x64.dmg`
+- **SHA256 校验值**：`7f6532f8b9df2a5d67c27bab5638d31f3e043e336d4e0ed278237eb64a83cb3b`
 - **系统要求**：macOS 10.15+
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
 
-### 最新版本 (v0.2.1) 更新内容
+### 最新版本 (v0.2.2) 更新内容
 
-- 🔧 修复页面闪动
-- ✅ DIAP 身份加载优化，支持点击创建
-- 📁 Agent ID 加载路径注入文件
-- ⚡ 并发 session 支持
-- 🔧 修复工具注册，提升数量
+- 💾 注入文档加载记忆，默认加载
+- 📝 创建记忆文档，在多个系统兼容
+- ⚡ session 分开并行优化
+- 🌐 浏览器工具优化
 
 ### 历史版本
 
