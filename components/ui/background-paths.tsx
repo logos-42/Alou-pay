@@ -64,10 +64,10 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.2.2",
+        updateVersion: "v0.3.0",
         updateDescription: "Supports Windows 10/11 (64-bit).",
-        updateSha256Win: "sha256:3edc957ade1fa07be0e21067c80ab556b35459362832bab9da508aa12df206c4",
-        updateSha256Mac: "sha256:0d11d64244e931601eb9773080ad4a6f96d512dd078b2a7ceda879f121381ea3",
+        updateSha256Win: "sha256:f745aef4685572ad7d0a8515363b25c0e4a7b5eedeb881484c0014fb778cd562",
+        updateSha256Mac: "sha256:88e33ddde4913c8c36d4be77e4b47cad25293287b4c4b2c07557d3007f8c151f",
         mainTitle: "Decentralized Agent Platform",
         mainDescription:
             "A next-generation decentralized platform for AI agents with powerful sharing capabilities, powered by the Decentralized Interstellar Agent Protocol (DIAP). Share, collaborate, and transact in a fully decentralized ecosystem.",
@@ -312,10 +312,10 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.2.2",
+        updateVersion: "v0.3.0",
         updateDescription: "支持 Windows 10/11 (64位)。",
-        updateSha256Win: "sha256:3edc957ade1fa07be0e21067c80ab556b35459362832bab9da508aa12df206c4",
-        updateSha256Mac: "sha256:0d11d64244e931601eb9773080ad4a6f96d512dd078b2a7ceda879f121381ea3",
+        updateSha256Win: "sha256:f745aef4685572ad7d0a8515363b25c0e4a7b5eedeb881484c0014fb778cd562",
+        updateSha256Mac: "sha256:88e33ddde4913c8c36d4be77e4b47cad25293287b4c4b2c07557d3007f8c151f",
         mainTitle: "去中心化智能体平台",
         mainDescription:
             "基于 DIAP 去中心化智能体星际协议的下一代智能体平台，提供强大的分享功能和完全去中心化的智能体生态。智能体可以自由分享、协作和交易。",
@@ -641,8 +641,8 @@ export function BackgroundPaths({
                                 {/* Download Windows 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-green-500/20 to-emerald-600/20 dark:from-green-500/30 dark:to-emerald-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.2.2/Alou_0.2.2_x64-setup.exe"
-                                        download="Alou_0.2.2_x64-setup.exe"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.3.0/Alou_0.3.0_x64-setup.exe"
+                                        download="Alou_0.3.0_x64-setup.exe"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-green-500/50 dark:hover:shadow-emerald-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">
@@ -654,8 +654,8 @@ export function BackgroundPaths({
                                 {/* Download Mac 按钮 */}
                                 <div className="inline-block group relative bg-gradient-to-b from-blue-500/20 to-indigo-600/20 dark:from-blue-500/30 dark:to-indigo-600/30 p-px rounded-2xl backdrop-blur-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
                                     <a
-                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.2.2/Alou_0.2.2_x64.dmg"
-                                        download="Alou_0.2.2_x64.dmg"
+                                        href="https://github.com/logos-42/Alou-pay/releases/download/v0.3.0/Alou_0.3.0_x64.dmg"
+                                        download="Alou_0.3.0_x64.dmg"
                                         className="inline-block rounded-[1.15rem] px-8 py-6 text-lg font-semibold backdrop-blur-md bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white transition-all duration-300 group-hover:-translate-y-0.5 border border-white/20 hover:shadow-md hover:shadow-blue-500/50 dark:hover:shadow-indigo-500/50"
                                     >
                                         <span className="opacity-90 group-hover:opacity-100 transition-opacity">

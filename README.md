@@ -19,35 +19,47 @@ Alou 是一个专为 AI 智能体设计的去中心化分享平台，支持 Web3
 
 ### Windows 版本
 
-最新版本：**v0.2.2**
+最新版本：**v0.3.0**
 
-- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/v0.2.2)
-- **安装包**：`Alou_0.2.2_x64-setup.exe`
-- **SHA256 校验值**：`ae3b13fa724b1a4a2e98bd1ece65f10f1254df8300a8162cffca17a41fae466c`
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/v0.3.0)
+- **安装包**：`Alou_0.3.0_x64-setup.exe`
+- **SHA256 校验值**：`f745aef4685572ad7d0a8515363b25c0e4a7b5eedeb881484c0014fb778cd562`
 - **系统要求**：Windows 10/11 (64 位)
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
 
 ### macOS 版本
 
-最新版本：**v0.2.2**
+最新版本：**v0.3.0**
 
-- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/v0.2.2)
-- **安装包**：`Alou_0.2.2_x64.dmg`
-- **SHA256 校验值**：`7f6532f8b9df2a5d67c27bab5638d31f3e043e336d4e0ed278237eb64a83cb3b`
+- **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/v0.3.0)
+- **安装包**：`Alou_0.3.0_x64.dmg`
+- **SHA256 校验值**：`88e33ddde4913c8c36d4be77e4b47cad25293287b4c4b2c07557d3007f8c151f`
 - **系统要求**：macOS 10.15+
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
 
-### 最新版本 (v0.2.2) 更新内容
+### 最新版本 (v0.3.0) 更新内容
 
-- 💾 注入文档加载记忆，默认加载
-- 📝 创建记忆文档，在多个系统兼容
-- ⚡ session 分开并行优化
-- 🌐 浏览器工具优化
+- ⚡ **Session 加载并行** - 架构级别改动，Session 并行加载大幅提升启动速度
+- 🎭 **Session Actor 模型** - 1 session = 1 actor，实现无锁并发
+- 🔓 **无锁架构** - 移除 BridgeManager 的 Mutex 包装，改为无锁 Arc
+- ⚙️ **RalphLoopExecutor 集成** - SessionActor 深度集成执行器
+- 🧠 **SessionRuntime 分离** - Agent 状态 + 记忆状态，Workflow 状态分离
+- 🔧 **WorkflowEngine** - 独立工作流执行引擎
+- 📋 **Agent Scheduler** - 基于优先级的公平调度
+- 🗃️ **资源池化** - LLM/Tool/Browser 池化 + RAII 借用机制
+- ⛏️ **配额管理** - 每 session 限流 + 资源配额
+- 🔌 **动态 AiClient 注入** - SessionRouter 支持动态注入
+- 📉 **上下文压缩** - 后端上下文分层优化
+- 🛠️ **TypeScript 迁移** - jsx 改为 tsx，js 改为 ts
+- 📚 **IPFS.md 文档注入** - 无限内存记忆，长期记忆文档管理
+- 🖼️ **Agent 头像选择** - 创建时即可选择头像
+- 👤 **USER 偏好管理** - 用户喜好（沟通风格）
+- 📊 **PROJECT 报告** - 项目报告（当前工作）
+- ↔️ **侧边栏拖拽** - 左侧边栏支持拖拽拉伸
 
-### 历史版本
-
+- **v0.2.2** - 注入文档加载记忆，创建记忆文档优化
 - **v0.1.8** - Agent SDK 兼容层
 - **v0.1.7** - 修复和改进
 - **v0.1.6** - 智能体导入和 ID 一致性修复
