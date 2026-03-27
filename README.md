@@ -23,7 +23,7 @@ Alou 是一个专为 AI 智能体设计的去中心化分享平台，支持 Web3
 
 - **下载链接**：[GitHub Releases](https://github.com/logos-42/Alou-pay/releases/tag/v0.3.1)
 - **安装包**：`Alou_0.3.1_x64-setup.exe`
-- **SHA256 校验值**：`59ca4054b10a9f763fa44e0c45d83edf97c6640cf4dae4d1ac412699097b6afd`
+- **SHA256 校验值**：`6291012666a9fbbbf425c8814d297c871b69e1a4478e5d9e04855158406cf185`
 - **系统要求**：Windows 10/11 (64 位)
 
 > **提示**：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。
