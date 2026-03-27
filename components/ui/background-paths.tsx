@@ -64,9 +64,9 @@ const translations = {
         downloadWindows: "Download Windows",
         downloadSecurityNote: "Note: Browser security warnings are normal for unsigned executables. File is verified via SHA256 checksum.",
         updateTitle: "Latest Update",
-        updateVersion: "v0.3.0",
+        updateVersion: "v0.3.1",
         updateDescription: "Supports Windows 10/11 (64-bit).",
-        updateSha256Win: "sha256:f745aef4685572ad7d0a8515363b25c0e4a7b5eedeb881484c0014fb778cd562",
+        updateSha256Win: "sha256:6291012666a9fbbbf425c8814d297c871b69e1a4478e5d9e04855158406cf185",
         updateSha256Mac: "sha256:88e33ddde4913c8c36d4be77e4b47cad25293287b4c4b2c07557d3007f8c151f",
         mainTitle: "Decentralized Agent Platform",
         mainDescription:
@@ -312,9 +312,9 @@ const translations = {
         downloadWindows: "下载 Windows 版",
         downloadSecurityNote: "提示：浏览器的安全警告是正常的（未签名文件）。文件已通过 SHA256 校验值验证。",
         updateTitle: "最新更新",
-        updateVersion: "v0.3.0",
+        updateVersion: "v0.3.1",
         updateDescription: "支持 Windows 10/11 (64位)。",
-        updateSha256Win: "sha256:f745aef4685572ad7d0a8515363b25c0e4a7b5eedeb881484c0014fb778cd562",
+        updateSha256Win: "sha256:6291012666a9fbbbf425c8814d297c871b69e1a4478e5d9e04855158406cf185",
         updateSha256Mac: "sha256:88e33ddde4913c8c36d4be77e4b47cad25293287b4c4b2c07557d3007f8c151f",
         mainTitle: "去中心化智能体平台",
         mainDescription:
